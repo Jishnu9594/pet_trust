@@ -2121,7 +2121,7 @@ hr {
   z-index: 1;
 }
 .header-area .main-header .main-menu ul li a {
-  color: #112957;
+  color: lightcoral;
   font-weight: 400;
   padding: 39px 27px;
   display: block;
@@ -2280,7 +2280,7 @@ hr {
 }
 .slider-area {
   position: relative;
-  background-image: url(../img/hero/h1_hero.png);
+  background-image: url(../img/Pettrust\ photos/P1210184.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

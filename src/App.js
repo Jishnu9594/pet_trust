@@ -4,6 +4,7 @@ import Index from "./pages/index";
 import About from "./pages/about";
 import Service from "./pages/service";
 import Blog from "./pages/blog";
+import Contact from "./pages/contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Correct import
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

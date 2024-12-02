@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
 import Menu from "../menu";
+import ContactForm from "./contactform";
+import TestimonialSlider from "./testimonial";
+import BlogSection from "./blogindex";
 
 function Index() {
   return (
@@ -83,6 +86,54 @@ function Index() {
                     <div className="services-cap">
                       <h5>
                         <a href="#">Pet Boarding</a>
+                      </h5>
+                      <p>
+                        consectetur adipiscing elit, serfd dgo eiusmod tempor
+                        incididunt ut ore et dolore magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Pet Treatment</a>
+                      </h5>
+                      <p>
+                        consectetur adipiscing elit, serfd dgo eiusmod tempor
+                        incididunt ut ore et dolore magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Pet Treatment</a>
+                      </h5>
+                      <p>
+                        consectetur adipiscing elit, serfd dgo eiusmod tempor
+                        incididunt ut ore et dolore magna aliqua.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Pet Treatment</a>
                       </h5>
                       <p>
                         consectetur adipiscing elit, serfd dgo eiusmod tempor
@@ -270,89 +321,9 @@ function Index() {
           </div>
           {/* Gallery Area End */}
           {/*? Contact form Start */}
-          <div className="contact-form-main pb-top">
-            <div className="container">
-              <div className="row justify-content-md-end">
-                <div className="col-xl-7 col-lg-7">
-                  <div className="form-wrapper">
-                    {/*Section Tittle  */}
-                    <div className="form-tittle">
-                      <div className="row ">
-                        <div className="col-xl-12">
-                          <div className="section-tittle section-tittle2 mb-70">
-                            <h2>World's Leading Law Consultency Agency !</h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/*End Section Tittle  */}
-                    <form id="contact-form" action="#" method="POST">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6">
-                          <div className="form-box user-icon mb-30">
-                            <input type="text" name="name" placeholder="Name" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6">
-                          <div className="form-box email-icon mb-30">
-                            <input
-                              type="text"
-                              name="email"
-                              placeholder="Phone"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6">
-                          <div className="select-itms">
-                            <select name="select" id="select2">
-                              <option value="">Health Law</option>
-                              <option value="">Saiful Islam</option>
-                              <option value="">Arafath Miya</option>
-                              <option value="">Shakil Miya</option>
-                              <option value="">Tamim Sharker</option>
-                            </select>
-                          </div>
-                        </div>
 
-                        <div className="col-lg-6 col-md-6">
-                          <div className="form-box subject-icon mb-30">
-                            <input
-                              type="Email"
-                              name="subject"
-                              placeholder="Email"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-12">
-                          <div className="form-box message-icon mb-65">
-                            <textarea
-                              name="message"
-                              id="message"
-                              placeholder="Message"
-                              defaultValue={""}
-                            />
-                          </div>
-                          <div className="submit-info">
-                            <button className="btn submit-btn2" type="submit">
-                              Submit Now
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                      {/* shape-dog */}
-                      <div className="shape-dog">
-                        <img src="assets/img/gallery/shape1.png" alt="" />
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* contact left Img*/}
-            <div className="from-left d-none d-lg-block">
-              <img src="assets/img/gallery/contact_form.png" alt="" />
-            </div>
-          </div>
+          <ContactForm />
+
           {/* Contact form End */}
           {/*? Team Start */}
           <div className="team-area section-padding30">
@@ -412,164 +383,11 @@ function Index() {
           </div>
           {/* Team End */}
           {/*? Testimonial Start */}
-          <div
-            className="testimonial-area testimonial-padding section-bg"
-            data-background="assets/img/gallery/section_bg03.png"
-            style={{
-              backgroundImage: 'url("assets/img/gallery/section_bg03.png")',
-            }}
-          >
-            <div className="container">
-              {/* Testimonial contents */}
-              <div className="row d-flex justify-content-center">
-                <div className="col-xl-8 col-lg-8 col-md-10">
-                  <div className="h1-testimonial-active dot-style">
-                    {/* Single Testimonial */}
-                    <div className="single-testimonial text-center">
-                      <div className="testimonial-caption ">
-                        {/* founder */}
-                        <div className="testimonial-founder">
-                          <div className="founder-img mb-40">
-                            <img
-                              src="assets/img/gallery/testi-logo.png"
-                              alt=""
-                            />
-                            <span>Margaret Lawson</span>
-                            <p>Creative Director</p>
-                          </div>
-                        </div>
-                        <div className="testimonial-top-cap">
-                          <p>
-                            “I am at an age where I just want to be fit and
-                            healthy our bodies are our responsibility! So start
-                            caring for your body and it will care for you. Eat
-                            clean it will care for you and workout hard.”
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Single Testimonial */}
-                    <div className="single-testimonial text-center">
-                      <div className="testimonial-caption ">
-                        {/* founder */}
-                        <div className="testimonial-founder">
-                          <div className="founder-img mb-40">
-                            <img
-                              src="assets/img/gallery/testi-logo.png"
-                              alt=""
-                            />
-                            <span>Margaret Lawson</span>
-                            <p>Creative Director</p>
-                          </div>
-                        </div>
-                        <div className="testimonial-top-cap">
-                          <p>
-                            “I am at an age where I just want to be fit and
-                            healthy our bodies are our responsibility! So start
-                            caring for your body and it will care for you. Eat
-                            clean it will care for you and workout hard.”
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Single Testimonial */}
-                    <div className="single-testimonial text-center">
-                      <div className="testimonial-caption ">
-                        {/* founder */}
-                        <div className="testimonial-founder">
-                          <div className="founder-img mb-40">
-                            <img
-                              src="assets/img/gallery/testi-logo.png"
-                              alt=""
-                            />
-                            <span>Margaret Lawson</span>
-                            <p>Creative Director</p>
-                          </div>
-                        </div>
-                        <div className="testimonial-top-cap">
-                          <p>
-                            “I am at an age where I just want to be fit and
-                            healthy our bodies are our responsibility! So start
-                            caring for your body and it will care for you. Eat
-                            clean it will care for you and workout hard.”
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <TestimonialSlider />
 
           {/* Testimonial End */}
           {/*? Blog start */}
-          <div className="home_blog-area section-padding30">
-            <div className="container">
-              <div className="row justify-content-sm-center">
-                <div className="cl-xl-7 col-lg-8 col-md-10">
-                  {/* Section Tittle */}
-                  <div className="section-tittle text-center mb-70">
-                    <span>Oure recent news</span>
-                    <h2>Our Recent Blog</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-4 col-lg-4 col-md-6">
-                  <div className="single-blogs mb-30">
-                    <div className="blog-img">
-                      <img src="assets/img/gallery/blog1.png" alt="" />
-                    </div>
-                    <div className="blogs-cap">
-                      <div className="date-info">
-                        <span>Pet food</span>
-                        <p>Nov 30, 2020</p>
-                      </div>
-                      <h4>Amazing Places To Visit In Summer</h4>
-                      <a href="blog_details.html" className="read-more1">
-                        Read more
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
-                  <div className="single-blogs mb-30">
-                    <div className="blog-img">
-                      <img src="assets/img/gallery/blog2.png" alt="" />
-                    </div>
-                    <div className="blogs-cap">
-                      <div className="date-info">
-                        <span>Pet food</span>
-                        <p>Nov 30, 2020</p>
-                      </div>
-                      <h4>Developing Creativithout Losing Visual</h4>
-                      <a href="blog_details.html" className="read-more1">
-                        Read more
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
-                  <div className="single-blogs mb-30">
-                    <div className="blog-img">
-                      <img src="assets/img/gallery/blog3.png" alt="" />
-                    </div>
-                    <div className="blogs-cap">
-                      <div className="date-info">
-                        <span>Pet food</span>
-                        <p>Nov 30, 2020</p>
-                      </div>
-                      <h4>Winter Photography Tips from Glenn</h4>
-                      <a href="blog_details.html" className="read-more1">
-                        Read more
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <BlogSection />
           {/* Blog End */}
           {/*? contact-animal-owner Start */}
           <div
