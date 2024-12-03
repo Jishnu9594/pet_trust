@@ -1,26 +1,37 @@
-import React, { Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import { Link } from "react-router-dom";
 
 function Menu() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <Fragment>
       <header>
-        {/*? Header Start */}
+        {/* Header Start */}
         <div className="header-area header-transparent">
           <div className="main-header header-sticky">
             <div className="container-fluid">
               <div className="row align-items-center">
                 {/* Logo */}
-                <div className="col-xl-2 col-lg-2 col-md-1">
+                <div className="col-xl-2 col-lg-2 col-md-2 col-6">
                   <div className="logo">
-                    <Link to="/"></Link>
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <Link to="/">
+                      <img src="assets/img/logo/logo.png" alt="Logo" />
+                    </Link>
                   </div>
                 </div>
-                <div className="col-xl-10 col-lg-10 col-md-10">
+                <div className="col-xl-10 col-lg-10 col-md-10 col-6">
                   <div className="menu-main d-flex align-items-center justify-content-end">
                     {/* Main-menu */}
-                    <div className="main-menu f-right d-none d-lg-block">
+                    <div
+                      className={`main-menu f-right d-none d-lg-block ${
+                        menuOpen ? "open" : ""
+                      }`}
+                    >
                       <nav>
                         <ul id="navigation">
                           <li>
@@ -32,9 +43,8 @@ function Menu() {
                           <li>
                             <Link to="/services">Services</Link>
                           </li>
-                          <li>
+                          <li className="has-submenu">
                             <Link to="/blog">Blog</Link>
-
                             <ul className="submenu">
                               <li>
                                 <Link to="/blog">Blog</Link>
@@ -53,19 +63,61 @@ function Menu() {
                         </ul>
                       </nav>
                     </div>
+                    {/* Call Button */}
                     <div className="header-right-btn f-right d-none d-lg-block ml-30">
-                      <a href="#" className="header-btn">
+                      <a href="tel:01654066456" className="header-btn">
                         01654.066.456
                       </a>
                     </div>
+                    {/* Mobile Menu Toggle */}
+                    <div className="mobile-menu-toggle d-lg-none">
+                      <button
+                        onClick={toggleMenu}
+                        className={`hamburger ${menuOpen ? "is-active" : ""}`}
+                        aria-label="Menu Toggle"
+                      >
+                        <span className="line"></span>
+                        <span className="line"></span>
+                        <span className="line"></span>
+                      </button>
+                    </div>
                   </div>
-                </div>
-                {/* Mobile Menu */}
-                <div className="col-12">
-                  <div className="mobile_menu d-block d-lg-none" />
                 </div>
               </div>
             </div>
+            {/* Mobile Menu */}
+            {menuOpen && (
+              <div className="mobile_menu d-block d-lg-none">
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/about">About</Link>
+                  </li>
+                  <li>
+                    <Link to="/services">Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                    <ul className="submenu">
+                      <li>
+                        <Link to="/blog">Blog</Link>
+                      </li>
+                      <li>
+                        <Link to="/blogdetails">Blog Details</Link>
+                      </li>
+                      <li>
+                        <Link to="/element">Element</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
         </div>
         {/* Header End */}

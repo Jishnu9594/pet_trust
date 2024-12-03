@@ -43,7 +43,9 @@ const ContactForm = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="section-tittle section-tittle2 mb-70">
-                      <h2>World's Leading Law Consultancy Agency!</h2>
+                      <h2>
+                        Schedule Your Pet's Health Checkup with Pet Trust!
+                      </h2>
                     </div>
                   </div>
                 </div>

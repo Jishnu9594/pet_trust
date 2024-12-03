@@ -8,7 +8,7 @@ const BlogSection = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:8000/api/blogs/");
+        const response = await axios.get("http://127.0.0.1:8000/pet/blogs/");
         setBlogs(response.data);
       } catch (error) {
         console.error("Error fetching blogs:", error);
@@ -48,6 +48,8 @@ const BlogSection = () => {
                     <p>{blog.date}</p>
                   </div>
                   <h4>{blog.title}</h4>
+                  {/* Display the content */}
+                  <p>{blog.content}</p>
                   <a href={`/blog/${blog.id}`} className="read-more1">
                     Read more
                   </a>
