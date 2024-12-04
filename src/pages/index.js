@@ -3,6 +3,7 @@ import Menu from "../menu";
 import ContactForm from "./contactform";
 import TestimonialSlider from "./testimonial";
 import BlogSection from "./blogindex";
+import AppointmentPopup from "./ Popup Component";
 
 function Index() {
   return (
@@ -10,6 +11,7 @@ function Index() {
       <>
         {/* Preloader Start */}
         <Menu />
+        <AppointmentPopup />
 
         <main>
           {/*? Slider Area Start*/}

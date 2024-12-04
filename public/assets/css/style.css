@@ -6080,34 +6080,133 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); /* Slightly lighter background */
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+.popup {
+  background-color: #ffffff;
+  padding: 25px 30px; /* Slightly larger padding for better spacing */
+  border-radius: 12px; /* Rounder corners for a softer look */
+  max-width: 450px; /* Increase max width for more space */
+  width: 100%; /* Make it responsive */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-message {
+  font-size: 20px; /* Slightly larger text for better readability */
+  color: #333; /* Darker text color for better contrast */
+  font-weight: 500; /* Medium weight for emphasis */
+  margin-bottom: 30px;
+}
+
+.popup-close-btn {
+  background-color: #007bff; /* Clean blue for modern feel */
+  color: #fff;
+  padding: 12px 24px; /* Increase padding for better button size */
+  border: none;
+  border-radius: 8px; /* Rounded edges for a softer look */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+}
+
+.popup-close-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.popup-close-btn:focus {
+  outline: none; /* Remove default focus outline for a cleaner look */
+}
+
+/* Fade-in animation for the popup */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.star-rating {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.filled-star {
+  color: gold;
+  font-size: 20px;
+}
+
+.empty-star {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it stays on top */
 }
 
 .popup {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 400px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 .popup-message {
-  margin-bottom: 20px;
   font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-close-btn,
+.popup-book-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.popup-close-btn:hover,
+.popup-book-btn:hover {
+  background-color: #0056b3;
 }
 
 .popup-close-btn {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: #ff4d4d;
 }
 
 .popup-close-btn:hover {
-  background-color: #0056b3;
+  background-color: #e60000;
 }

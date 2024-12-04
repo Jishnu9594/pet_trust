@@ -34,6 +34,28 @@ const TestimonialSlider = () => {
     pauseOnHover: true, // Pause the autoplay when hovering over the slider
   };
 
+  // Render stars based on rating
+  const renderStars = (rating) => {
+    const totalStars = 5;
+    return (
+      <div className="star-rating" style={{ marginTop: "5px" }}>
+        {Array.from({ length: totalStars }, (_, index) => (
+          <span
+            key={index}
+            className={index < rating ? "filled-star" : "empty-star"}
+            style={{
+              color: index < rating ? "#ffc107" : "#e4e5e9", // Gold for filled stars, light gray for empty
+              fontSize: "20px", // Adjust size as needed
+              margin: "0 2px",
+            }}
+          >
+            ★
+          </span>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div
       className="testimonial-area testimonial-padding section-bg"
@@ -55,19 +77,37 @@ const TestimonialSlider = () => {
                   <div className="testimonial-caption">
                     <div className="testimonial-founder">
                       <div className="founder-img mb-40">
-                        <img
-                          src={
-                            testimonial.image_url ||
-                            "assets/img/gallery/testi-logo.png"
-                          }
-                          alt=""
-                        />
-                        <span>{testimonial.name}</span>
-                        <p>{testimonial.title}</p>
+                        {/* Profile image */}
+                        {testimonial.image && (
+                          <img
+                            src={`http://127.0.0.1:8000${testimonial.image}`}
+                            alt={`${testimonial.name} - Testimonial`} // Providing a meaningful alt text
+                            style={{
+                              width: "100px",
+                              height: "100px",
+                              borderRadius: "50%",
+                              objectFit: "cover",
+                              marginBottom: "15px",
+                            }}
+                          />
+                        )}
+                        {/* Display the name */}
+                        <span style={{ fontSize: "18px", fontWeight: "bold" }}>
+                          {testimonial.name}
+                        </span>
+                        {/* Render Star Rating directly below the name */}
+                        {testimonial.rating && renderStars(testimonial.rating)}
+                        {/* Display the title */}
+                        <p style={{ fontSize: "16px", color: "#6c757d" }}>
+                          {testimonial.title}
+                        </p>
                       </div>
                     </div>
                     <div className="testimonial-top-cap">
-                      <p>{testimonial.message}</p>
+                      {/* Display the testimonial message */}
+                      <p style={{ fontSize: "14px", lineHeight: "1.6" }}>
+                        {testimonial.message}
+                      </p>
                     </div>
                   </div>
                 </div>
