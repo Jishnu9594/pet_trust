@@ -56,33 +56,27 @@ function About() {
                   <div className="about-details-cap mb-50">
                     <h4>Our Mission</h4>
                     <p>
-                      Consectetur adipiscing elit, sued do eiusmod tempor
-                      ididunt udfgt labore et dolore magna aliqua. Quis ipsum
-                      suspendisces gravida. Risus commodo viverra sebfd dho
-                      eiusmod tempor maecenas accumsan lacus. Risus commodo
-                      viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-                    </p>
-                    <p>
-                      {" "}
-                      Risus commodo viverra sebfd dho eiusmod tempor maecenas
-                      accumsan lacus. Risus commodo viverra sebfd dho eiusmod
-                      tempor maecenas accumsan.
+                      At Pet Trust Hospital, our mission is to provide
+                      compassionate, comprehensive, and high-quality care for
+                      all pets. We are committed to enhancing the lives of pets
+                      and their families by offering advanced medical treatment,
+                      preventive care, and exceptional customer service. Our
+                      dedicated team of veterinary professionals strives to
+                      ensure the well-being of every pet, making their health
+                      our top priority.
                     </p>
                   </div>
                   <div className="about-details-cap mb-50">
                     <h4>Our Vision</h4>
                     <p>
-                      Consectetur adipiscing elit, sued do eiusmod tempor
-                      ididunt udfgt labore et dolore magna aliqua. Quis ipsum
-                      suspendisces gravida. Risus commodo viverra sebfd dho
-                      eiusmod tempor maecenas accumsan lacus. Risus commodo
-                      viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-                    </p>
-                    <p>
-                      {" "}
-                      Risus commodo viverra sebfd dho eiusmod tempor maecenas
-                      accumsan lacus. Risus commodo viverra sebfd dho eiusmod
-                      tempor maecenas accumsan.
+                      Our vision is to be the leading veterinary hospital,
+                      recognized for our innovative approach to pet care and
+                      unwavering commitment to the health and happiness of every
+                      pet. We aim to create a safe, supportive, and welcoming
+                      environment for pets and their owners, ensuring that every
+                      visit is a positive experience. Through continuous
+                      learning, advanced technology, and personalized care, we
+                      aspire to set a new standard in veterinary excellence.
                     </p>
                   </div>
                 </div>
@@ -145,21 +139,22 @@ function About() {
                 {/* Section Tittle */}
                 <div className="section-tittle mb-50">
                   <h2>
-                    We are commited for
-                    <br /> better service
+                    We are committed to providing the best care for your pets
+                    <br />
                   </h2>
                 </div>
                 <div className="about-more">
                   <p className="pera-top">
-                    Mollit anim laborum duis adseu dolor iuyn voluptcate velit
-                    ess <br />
-                    cillum dolore egru lofrre dsu.
+                    From routine check-ups to specialized treatments, we are
+                    dedicated to meeting all of your pet's needs with
+                    professionalism and care.
                   </p>
                   <p className="mb-65 pera-bottom">
-                    Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr
-                    indd re voluptate velit esscillumlore eu quife nrulla
-                    parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute
-                    iruxvfg dhjinulpadeserunt moll.
+                    At Pet Trust Hospital, we prioritize your pet's health and
+                    well-being with compassionate, expert care. Our team of
+                    experienced veterinarians and staff offer a wide range of
+                    medical, surgical, and wellness services to ensure your
+                    furry friends live a long, healthy life.
                   </p>
                   <a href="#" className="btn">
                     Read More
@@ -246,10 +241,14 @@ function About() {
                 <div className="col-lg-8">
                   <div className="contact_text text-center">
                     <div className="section_title text-center">
-                      <h3>Any time you can call us!</h3>
+                      <h3>Anytime, You Can Reach Us!</h3>
                       <p>
-                        Because we know that even the best technology is only as
-                        good as the people behind it. 24/7 tech support.
+                        At Pet Trust Hospital, we understand that your pet’s
+                        health is priceless. That’s why our expert team is
+                        available around the clock to provide care and support
+                        whenever you need it. Whether it's an emergency or a
+                        routine check-up, we’re here for your pet, ensuring they
+                        receive the attention and treatment they deserve—24/7.
                       </p>
                     </div>
                     <div className="contact_btn d-flex align-items-center justify-content-center">
@@ -257,7 +256,7 @@ function About() {
                         Contact Us
                       </a>
                       <p>
-                        Or<a href="#"> +880 4664 216</a>
+                        Or<a href="#"> +91 6235806115</a>
                       </p>
                     </div>
                   </div>
@@ -278,15 +277,12 @@ function About() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/logo/logo2_footer.png" alt="" />
+                          <img src="assets/img/Group-2.png" alt="Logo" />
                         </a>
                       </div>
                       <div className="footer-tittle">
                         <div className="footer-pera">
-                          <p>
-                            Lorem ipsum dolor sit amet, adipiscing elit, sed do
-                            eiusmod tempor elit.{" "}
-                          </p>
+                          <p>Valuing Your Pet’s Health at Pet Trust Hospital</p>
                         </div>
                       </div>
                       {/* social */}
@@ -310,7 +306,7 @@ function About() {
                 <div className="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                   <div className="single-footer-caption mb-50">
                     <div className="footer-tittle">
-                      <h4>Company</h4>
+                      <h4>Pet Trust Hospital</h4>
                       <ul>
                         <li>
                           <a href="index.html">Home</a>
@@ -337,19 +333,26 @@ function About() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Commercial Cleaning</a>
+                          <a href="#">Pet Boarding</a>
                         </li>
                         <li>
-                          <a href="#">Office Cleaning</a>
+                          <a href="#">Pet Treatment</a>
                         </li>
                         <li>
-                          <a href="#">Building Cleaning</a>
+                          <a href="#">Vaccinations</a>
                         </li>
                         <li>
-                          <a href="#">Floor Cleaning</a>
+                          <a href="#">Department of Surgery</a>
                         </li>
                         <li>
-                          <a href="#">Apartment Cleaning</a>
+                          <a href="#">Department of Veterinary Medicine</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <li>
+                              <a href="#">Department of Veterinary Medicine</a>
+                            </li>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -361,13 +364,17 @@ function About() {
                       <h4>Get in Touch</h4>
                       <ul>
                         <li>
-                          <a href="#">152-515-6565</a>
+                          <a href="#">+91 6235806114</a>|
+                          <a href="#">+91 6235806114</a>
                         </li>
                         <li>
-                          <a href="#"> Demomail@gmail.com</a>
+                          <a href="#"> infopettrust@gmail.com</a>
                         </li>
                         <li>
-                          <a href="#">New Orleans, USA</a>
+                          <a href="#">
+                            PET TRUST - Pet Hospital Kochi, Veterinary Hospital
+                            Kochi, Pet Clinic Kochi, Veterinary Doctor Kochi
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -384,11 +391,11 @@ function About() {
                   <div className="col-xl-12 ">
                     <div className="footer-copy-right text-center">
                       <p>
-                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                        Copyright © All rights reserved | This template is made
-                        with <i className="fa fa-heart" aria-hidden="true" /> by{" "}
+                        Copyright © Pet Trust All rights reserved | This website
+                        is made with{" "}
+                        <i className="fa fa-heart" aria-hidden="true" /> by{" "}
                         <a href="https://colorlib.com" target="_blank">
-                          Colorlib
+                          INNVOATE_X
                         </a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                       </p>

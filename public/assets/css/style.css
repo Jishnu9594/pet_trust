@@ -2121,7 +2121,7 @@ hr {
   z-index: 1;
 }
 .header-area .main-header .main-menu ul li a {
-  color: lightcoral;
+  color: black;
   font-weight: 400;
   padding: 39px 27px;
   display: block;
@@ -2280,7 +2280,7 @@ hr {
 }
 .slider-area {
   position: relative;
-  background-image: url(../img/Pettrust\ photos/P1210184.JPG);
+  background-image: url(../img/hero/front-view-beautiful-dog-with-copy-space.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2329,7 +2329,7 @@ hr {
 .slider-area .hero__caption h1 {
   font-size: 70px;
   font-weight: 900;
-  color: #111111;
+  color: whitesmoke;
   line-height: 1.3;
   margin-bottom: 23px;
   overflow: hidden;
@@ -2365,7 +2365,7 @@ hr {
 .slider-area .hero__caption p {
   margin-bottom: 30px;
   padding-right: 155px;
-  color: #776b6a;
+  color: whitesmoke;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2637,7 +2637,7 @@ hr {
   margin-bottom: 50px;
   width: 100px;
   height: 100px;
-  background: #ffedf2;
+  background: lightblue;
   line-height: 100px;
   text-align: center;
   border-radius: 50px;
@@ -2729,7 +2729,7 @@ hr {
   height: 837px;
 }
 .contact-form-main .form-tittle {
-  background-image: url(../img/gallery/contact_bg.png);
+  background-image: url(../img/gallery/amused-surprised-smiling-redhead-girl-widen-eyes-look-impressed-as-hear-good-news-from-frien.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 68px 51px 0px 67px;
@@ -3201,7 +3201,7 @@ hr {
   }
 }
 .about-area .about-img {
-  background-image: url(../img/gallery/about.png);
+  background-image: url(../img/pettrust1/P1210473.JPG);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3279,7 +3279,7 @@ hr {
   background: #eb4916;
 }
 .about-area .about-details {
-  background-image: url(../img/gallery/section_bg02.png);
+  background-image: url(../img/gallery/young-female-doctor-hospital-worker-white-coat-thinking-looking-away-thoughtful-searching-solution-standing-toquoise-background.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5963,7 +5963,7 @@ body {
 }
 
 .header-right-btn a {
-  background: #f39c12;
+  background: orangered;
   color: #fff;
   padding: 10px 20px;
   border-radius: 20px;
@@ -6067,4 +6067,47 @@ body {
   .mobile_menu {
     display: none;
   }
+}
+.testimonial-heading {
+  font-size: 36px; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #fff; /* Adjust the color */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.popup-message {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.popup-close-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-close-btn:hover {
+  background-color: #0056b3;
 }

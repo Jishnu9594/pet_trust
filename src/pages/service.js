@@ -43,8 +43,10 @@ function Service() {
                         <a href="#">Pet Boarding</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital offers reliable pet boarding with
+                        loving care, spacious accommodations, and professional
+                        staff to ensure your pet stays safe, happy, and healthy
+                        while you're away.
                       </p>
                     </div>
                   </div>
@@ -59,8 +61,11 @@ function Service() {
                         <a href="#">Pet Treatment</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital provides expert pet treatment with
+                        advanced medical care, compassionate veterinarians, and
+                        state-of-the-art facilities, ensuring your beloved pets
+                        receive the best attention for their health and
+                        well-being.
                       </p>
                     </div>
                   </div>
@@ -75,24 +80,10 @@ function Service() {
                         <a href="#">Vaccinations</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className=" col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-services text-center mb-30">
-                    <div className="services-ion">
-                      <span className="flaticon-animals" />
-                    </div>
-                    <div className="services-cap">
-                      <h5>
-                        <a href="#">Pet Treatment</a>
-                      </h5>
-                      <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital offers essential pet vaccinations to
+                        protect your furry friends from diseases, ensuring their
+                        long-term health with expert care and personalized
+                        vaccination plans tailored to your pet's needs.
                       </p>
                     </div>
                   </div>
@@ -104,11 +95,33 @@ function Service() {
                     </div>
                     <div className="services-cap">
                       <h5>
-                        <a href="#">Vaccinations</a>
+                        <a href="#">Department of Surgery</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Department of Surgery at Pet Trust Hospital provides
+                        advanced surgical care for pets, including routine
+                        procedures and complex operations, ensuring your pet’s
+                        health with precision, expertise, and compassionate
+                        support.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Veterinary Medicine</a>
+                      </h5>
+                      <p>
+                        Department of Veterinary Medicine at Pet Trust Hospital
+                        offers comprehensive medical care, from diagnostics to
+                        treatment plans, ensuring pets receive expert attention
+                        for illnesses, preventive care, and overall wellness.
                       </p>
                     </div>
                   </div>
@@ -116,15 +129,157 @@ function Service() {
                 <div className=" col-lg-4 col-md-6 col-sm-6">
                   <div className="single-services text-center mb-30">
                     <div className="services-ion">
-                      <span className="flaticon-animal-kingdom" />
+                      <span className="flaticon-animals-1" />
                     </div>
                     <div className="services-cap">
                       <h5>
-                        <a href="#">Pet Boarding</a>
+                        <a href="#">Department of Veterinary Medicine</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Department of Veterinary Medicine at Pet Trust Hospital
+                        offers comprehensive medical care, from diagnostics to
+                        treatment plans, ensuring pets receive expert attention
+                        for illnesses, preventive care, and overall wellness.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#"> Department of Diagnostic Imaging</a>
+                      </h5>
+                      <p>
+                        The Department of Diagnostic Imaging at Pet Trust
+                        Hospital offers advanced imaging services, including
+                        X-rays, ultrasounds, and MRIs, to accurately diagnose
+                        and guide treatment for pets, ensuring optimal care and
+                        recovery.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Obstetrics and Gynecology</a>
+                      </h5>
+                      <p>
+                        The Department of Obstetrics and Gynecology at Pet Trust
+                        Hospital specializes in reproductive health, offering
+                        services like prenatal care, delivery assistance, and
+                        gynecological treatments, ensuring the well-being of
+                        female pets.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Pet Dental Care And Treatment in Cochin</a>
+                      </h5>
+                      <p>
+                        At Pet Trust Hospital in Cochin, we offer comprehensive
+                        Pet Dental Care and Treatment to maintain your pet's
+                        oral health. Our services include routine check-ups,
+                        teeth cleaning, and treatment for dental diseases,
+                        ensuring your pet's comfort and well-being.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#"> Laboratory</a>
+                      </h5>
+                      <p>
+                        At Pet Trust Hospital, our state-of-the-art Laboratory
+                        provides comprehensive diagnostic testing for pets. With
+                        advanced equipment and expert professionals, we offer
+                        accurate results for blood work, urinalysis, tissue
+                        analysis, and more to ensure timely diagnosis and
+                        effective treatment for your pet's health.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Wellness Programs</a>
+                      </h5>
+                      <p>
+                        At Pet Trust Hospital, our Wellness Programs are
+                        designed to provide preventive care tailored to your
+                        pet’s needs. These programs include routine check-ups,
+                        vaccinations, dental care, and nutritional guidance,
+                        ensuring your pet maintains optimal health and quality
+                        of life at every stage. Our team is committed to
+                        providing compassionate care to help your pet thrive.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Pet Nutrition</a>
+                      </h5>
+                      <p>
+                        At Pet Trust Hospital, we understand that proper
+                        nutrition is essential to your pet's overall health and
+                        well-being. Our Pet Nutrition services include
+                        personalized dietary plans tailored to your pet's
+                        specific needs, age, breed, and medical conditions. We
+                        provide expert advice on choosing the best food,
+                        supplements, and feeding schedules to ensure your pet
+                        enjoys a balanced diet for a long, healthy life.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Interventional Radiography</a>
+                      </h5>
+                      <p>
+                        Department of Interventional Radiography at Pet Trust
+                        Hospital provides advanced imaging and minimally
+                        invasive procedures, enabling precise diagnostics and
+                        treatments to improve your pet's health and recovery
+                        outcomes effectively.
                       </p>
                     </div>
                   </div>
@@ -146,10 +301,14 @@ function Service() {
                 <div className="col-lg-8">
                   <div className="contact_text text-center">
                     <div className="section_title text-center">
-                      <h3>Any time you can call us!</h3>
+                      <h3>Anytime, You Can Reach Us!</h3>
                       <p>
-                        Because we know that even the best technology is only as
-                        good as the people behind it. 24/7 tech support.
+                        At Pet Trust Hospital, we understand that your pet’s
+                        health is priceless. That’s why our expert team is
+                        available around the clock to provide care and support
+                        whenever you need it. Whether it's an emergency or a
+                        routine check-up, we’re here for your pet, ensuring they
+                        receive the attention and treatment they deserve—24/7.
                       </p>
                     </div>
                     <div className="contact_btn d-flex align-items-center justify-content-center">
@@ -157,7 +316,7 @@ function Service() {
                         Contact Us
                       </a>
                       <p>
-                        Or<a href="#"> +880 4664 216</a>
+                        Or<a href="#">+91 6235806115</a>
                       </p>
                     </div>
                   </div>
@@ -178,15 +337,12 @@ function Service() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/logo/logo2_footer.png" alt="" />
+                          <img src="assets/img/Group-2.png" alt="Logo" />
                         </a>
                       </div>
                       <div className="footer-tittle">
                         <div className="footer-pera">
-                          <p>
-                            Lorem ipsum dolor sit amet, adipiscing elit, sed do
-                            eiusmod tempor elit.{" "}
-                          </p>
+                          <p>Valuing Your Pet’s Health at Pet Trust Hospital</p>
                         </div>
                       </div>
                       {/* social */}
@@ -210,7 +366,7 @@ function Service() {
                 <div className="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                   <div className="single-footer-caption mb-50">
                     <div className="footer-tittle">
-                      <h4>Company</h4>
+                      <h4>Pet Trust Hospital</h4>
                       <ul>
                         <li>
                           <a href="index.html">Home</a>
@@ -237,19 +393,26 @@ function Service() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Commercial Cleaning</a>
+                          <a href="#">Pet Boarding</a>
                         </li>
                         <li>
-                          <a href="#">Office Cleaning</a>
+                          <a href="#">Pet Treatment</a>
                         </li>
                         <li>
-                          <a href="#">Building Cleaning</a>
+                          <a href="#">Vaccinations</a>
                         </li>
                         <li>
-                          <a href="#">Floor Cleaning</a>
+                          <a href="#">Department of Surgery</a>
                         </li>
                         <li>
-                          <a href="#">Apartment Cleaning</a>
+                          <a href="#">Department of Veterinary Medicine</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <li>
+                              <a href="#">Department of Veterinary Medicine</a>
+                            </li>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -261,13 +424,17 @@ function Service() {
                       <h4>Get in Touch</h4>
                       <ul>
                         <li>
-                          <a href="#">152-515-6565</a>
+                          <a href="#">+91 6235806114</a>|
+                          <a href="#">+91 6235806114</a>
                         </li>
                         <li>
-                          <a href="#"> Demomail@gmail.com</a>
+                          <a href="#"> infopettrust@gmail.com</a>
                         </li>
                         <li>
-                          <a href="#">New Orleans, USA</a>
+                          <a href="#">
+                            PET TRUST - Pet Hospital Kochi, Veterinary Hospital
+                            Kochi, Pet Clinic Kochi, Veterinary Doctor Kochi
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -285,10 +452,11 @@ function Service() {
                     <div className="footer-copy-right text-center">
                       <p>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                        Copyright © All rights reserved | This template is made
-                        with <i className="fa fa-heart" aria-hidden="true" /> by{" "}
+                        Copyright © Pet Trust All rights reserved | This website
+                        is made with{" "}
+                        <i className="fa fa-heart" aria-hidden="true" /> by{" "}
                         <a href="https://colorlib.com" target="_blank">
-                          Colorlib
+                          INNVOATE_X
                         </a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                       </p>

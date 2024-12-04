@@ -11,6 +11,8 @@ const ContactForm = () => {
     time: "",
     message: "",
   });
+  const [popupMessage, setPopupMessage] = useState(""); // State for the pop-up message
+  const [showPopup, setShowPopup] = useState(false); // State to show/hide the pop-up
 
   const handleChange = (e) => {
     setFormData({
@@ -23,14 +25,21 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/contact/submit/",
+        "http://127.0.0.1:8000/pet/contact-form/",
         formData
       );
-      alert(response.data.message);
+      setPopupMessage(response.data.message); // Set the success message
+      setShowPopup(true); // Show the pop-up
     } catch (error) {
       console.error(error.response.data);
-      alert("Failed to submit form. Please try again.");
+      setPopupMessage("Failed to submit form. Please try again."); // Set the error message
+      setShowPopup(true); // Show the pop-up
     }
+  };
+
+  // Close the pop-up message
+  const closePopup = () => {
+    setShowPopup(false);
   };
 
   return (
@@ -143,6 +152,18 @@ const ContactForm = () => {
       <div className="from-left d-none d-lg-block">
         <img src="assets/img/gallery/contact_form.png" alt="" />
       </div>
+
+      {/* Pop-up Message */}
+      {showPopup && (
+        <div className="popup-overlay">
+          <div className="popup">
+            <div className="popup-message">{popupMessage}</div>
+            <button onClick={closePopup} className="popup-close-btn">
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

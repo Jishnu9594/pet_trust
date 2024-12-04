@@ -20,7 +20,7 @@ function Menu() {
                 <div className="col-xl-2 col-lg-2 col-md-2 col-6">
                   <div className="logo">
                     <Link to="/">
-                      <img src="assets/img/logo/logo.png" alt="Logo" />
+                      <img src="assets/img/Group-2.png" alt="Logo" />
                     </Link>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ function Menu() {
                     {/* Call Button */}
                     <div className="header-right-btn f-right d-none d-lg-block ml-30">
                       <a href="tel:01654066456" className="header-btn">
-                        01654.066.456
+                        +91 6235806115
                       </a>
                     </div>
                     {/* Mobile Menu Toggle */}

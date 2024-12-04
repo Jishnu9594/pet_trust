@@ -33,15 +33,15 @@ function Index() {
                       </div>
                       <div className="hero__caption">
                         <span data-animation="fadeInUp" data-delay=".3s">
-                          We help to groom your pet
+                          Trusted Care for Your Pets
                         </span>
                         <h1 data-animation="fadeInUp" data-delay=".3s">
                           We Care Your Pets.
                         </h1>
                         <p data-animation="fadeInUp" data-delay=".6s">
-                          Consectetur adipiscing elit, sed do eiusmod tempor
-                          incididunt ut labore et dolore magna sectetur
-                          adipisci.
+                          At Pet Trust Hospital, we provide expert care and
+                          attention to your furry friends, ensuring they live
+                          happy and healthy lives.
                         </p>
                         <a
                           href="#"
@@ -88,8 +88,10 @@ function Index() {
                         <a href="#">Pet Boarding</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital offers reliable pet boarding with
+                        loving care, spacious accommodations, and professional
+                        staff to ensure your pet stays safe, happy, and healthy
+                        while you're away.
                       </p>
                     </div>
                   </div>
@@ -104,56 +106,11 @@ function Index() {
                         <a href="#">Pet Treatment</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className=" col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-services text-center mb-30">
-                    <div className="services-ion">
-                      <span className="flaticon-animals" />
-                    </div>
-                    <div className="services-cap">
-                      <h5>
-                        <a href="#">Pet Treatment</a>
-                      </h5>
-                      <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className=" col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-services text-center mb-30">
-                    <div className="services-ion">
-                      <span className="flaticon-animals" />
-                    </div>
-                    <div className="services-cap">
-                      <h5>
-                        <a href="#">Pet Treatment</a>
-                      </h5>
-                      <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className=" col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-services text-center mb-30">
-                    <div className="services-ion">
-                      <span className="flaticon-animals" />
-                    </div>
-                    <div className="services-cap">
-                      <h5>
-                        <a href="#">Pet Treatment</a>
-                      </h5>
-                      <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital provides expert pet treatment with
+                        advanced medical care, compassionate veterinarians, and
+                        state-of-the-art facilities, ensuring your beloved pets
+                        receive the best attention for their health and
+                        well-being.
                       </p>
                     </div>
                   </div>
@@ -168,8 +125,68 @@ function Index() {
                         <a href="#">Vaccinations</a>
                       </h5>
                       <p>
-                        consectetur adipiscing elit, serfd dgo eiusmod tempor
-                        incididunt ut ore et dolore magna aliqua.
+                        Pet Trust Hospital offers essential pet vaccinations to
+                        protect your furry friends from diseases, ensuring their
+                        long-term health with expert care and personalized
+                        vaccination plans tailored to your pet's needs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Surgery</a>
+                      </h5>
+                      <p>
+                        Department of Surgery at Pet Trust Hospital provides
+                        advanced surgical care for pets, including routine
+                        procedures and complex operations, ensuring your pet’s
+                        health with precision, expertise, and compassionate
+                        support.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Veterinary Medicine</a>
+                      </h5>
+                      <p>
+                        Department of Veterinary Medicine at Pet Trust Hospital
+                        offers comprehensive medical care, from diagnostics to
+                        treatment plans, ensuring pets receive expert attention
+                        for illnesses, preventive care, and overall wellness.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
+                        <a href="#">Department of Interventional Radiography</a>
+                      </h5>
+                      <p>
+                        Department of Interventional Radiography at Pet Trust
+                        Hospital provides advanced imaging and minimally
+                        invasive procedures, enabling precise diagnostics and
+                        treatments to improve your pet's health and recovery
+                        outcomes effectively.
                       </p>
                     </div>
                   </div>
@@ -233,21 +250,22 @@ function Index() {
                 {/* Section Tittle */}
                 <div className="section-tittle mb-50">
                   <h2>
-                    We are commited for
-                    <br /> better service
+                    We are committed to providing the best care for your pets
+                    <br />
                   </h2>
                 </div>
                 <div className="about-more">
                   <p className="pera-top">
-                    Mollit anim laborum duis adseu dolor iuyn voluptcate velit
-                    ess <br />
-                    cillum dolore egru lofrre dsu.
+                    From routine check-ups to specialized treatments, we are
+                    dedicated to meeting all of your pet's needs with
+                    professionalism and care.
                   </p>
                   <p className="mb-65 pera-bottom">
-                    Mollit anim laborum.Dvcuis aute serunt iruxvfg dhjkolohr
-                    indd re voluptate velit esscillumlore eu quife nrulla
-                    parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute
-                    iruxvfg dhjinulpadeserunt moll.
+                    At Pet Trust Hospital, we prioritize your pet's health and
+                    well-being with compassionate, expert care. Our team of
+                    experienced veterinarians and staff offer a wide range of
+                    medical, surgical, and wellness services to ensure your
+                    furry friends live a long, healthy life.
                   </p>
                   <a href="#" className="btn">
                     Read More
@@ -281,7 +299,8 @@ function Index() {
                     <div
                       className="gallery-img size-img"
                       style={{
-                        backgroundImage: "url(assets/img/gallery/gallery1.png)",
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210335.JPG)",
                       }}
                     />
                   </div>
@@ -291,7 +310,8 @@ function Index() {
                     <div
                       className="gallery-img size-img"
                       style={{
-                        backgroundImage: "url(assets/img/gallery/gallery2.png)",
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210118.JPG)",
                       }}
                     />
                   </div>
@@ -301,7 +321,20 @@ function Index() {
                     <div
                       className="gallery-img size-img"
                       style={{
-                        backgroundImage: "url(assets/img/gallery/gallery3.png)",
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210421.JPG)",
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-lg-4  col-md-6 col-sm-6">
+                  <div className="single-gallery mb-30">
+                    <div
+                      className="gallery-img size-img"
+                      style={{
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210081.JPG)",
                       }}
                     />
                   </div>
@@ -311,7 +344,19 @@ function Index() {
                     <div
                       className="gallery-img size-img"
                       style={{
-                        backgroundImage: "url(assets/img/gallery/gallery4.png)",
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210497.JPG)",
+                      }}
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-8 col-md-6 col-sm-6">
+                  <div className="single-gallery mb-30">
+                    <div
+                      className="gallery-img size-img"
+                      style={{
+                        backgroundImage:
+                          "url(assets/img/pettrust1/P1210388.JPG)",
                       }}
                     />
                   </div>
@@ -402,10 +447,14 @@ function Index() {
                 <div className="col-lg-8">
                   <div className="contact_text text-center">
                     <div className="section_title text-center">
-                      <h3>Any time you can call us!</h3>
+                      <h3>Anytime, You Can Reach Us!</h3>
                       <p>
-                        Because we know that even the best technology is only as
-                        good as the people behind it. 24/7 tech support.
+                        At Pet Trust Hospital, we understand that your pet’s
+                        health is priceless. That’s why our expert team is
+                        available around the clock to provide care and support
+                        whenever you need it. Whether it's an emergency or a
+                        routine check-up, we’re here for your pet, ensuring they
+                        receive the attention and treatment they deserve—24/7.
                       </p>
                     </div>
                     <div className="contact_btn d-flex align-items-center justify-content-center">
@@ -413,7 +462,7 @@ function Index() {
                         Contact Us
                       </a>
                       <p>
-                        Or<a href="#"> +880 4664 216</a>
+                        Or<a href="#">+91 6235806115</a>
                       </p>
                     </div>
                   </div>
@@ -434,15 +483,12 @@ function Index() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/logo/logo2_footer.png" alt="" />
+                          <img src="assets/img/Group-2.png" alt="Logo" />
                         </a>
                       </div>
                       <div className="footer-tittle">
                         <div className="footer-pera">
-                          <p>
-                            Lorem ipsum dolor sit amet, adipiscing elit, sed do
-                            eiusmod tempor elit.{" "}
-                          </p>
+                          <p>Valuing Your Pet’s Health at Pet Trust Hospital</p>
                         </div>
                       </div>
                       {/* social */}
@@ -466,7 +512,7 @@ function Index() {
                 <div className="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                   <div className="single-footer-caption mb-50">
                     <div className="footer-tittle">
-                      <h4>Company</h4>
+                      <h4>Pet Trust Hospital</h4>
                       <ul>
                         <li>
                           <a href="index.html">Home</a>
@@ -493,19 +539,26 @@ function Index() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Commercial Cleaning</a>
+                          <a href="#">Pet Boarding</a>
                         </li>
                         <li>
-                          <a href="#">Office Cleaning</a>
+                          <a href="#">Pet Treatment</a>
                         </li>
                         <li>
-                          <a href="#">Building Cleaning</a>
+                          <a href="#">Vaccinations</a>
                         </li>
                         <li>
-                          <a href="#">Floor Cleaning</a>
+                          <a href="#">Department of Surgery</a>
                         </li>
                         <li>
-                          <a href="#">Apartment Cleaning</a>
+                          <a href="#">Department of Veterinary Medicine</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <li>
+                              <a href="#">Department of Veterinary Medicine</a>
+                            </li>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -517,13 +570,17 @@ function Index() {
                       <h4>Get in Touch</h4>
                       <ul>
                         <li>
-                          <a href="#">152-515-6565</a>
+                          <a href="#">+91 6235806114</a>|
+                          <a href="#">+91 6235806114</a>
                         </li>
                         <li>
-                          <a href="#"> Demomail@gmail.com</a>
+                          <a href="#"> infopettrust@gmail.com</a>
                         </li>
                         <li>
-                          <a href="#">New Orleans, USA</a>
+                          <a href="#">
+                            PET TRUST - Pet Hospital Kochi, Veterinary Hospital
+                            Kochi, Pet Clinic Kochi, Veterinary Doctor Kochi
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -541,8 +598,8 @@ function Index() {
                     <div className="footer-copy-right text-center">
                       <p>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                        Copyright © Pet Trust All rights reserved | This
-                        template is made with{" "}
+                        Copyright © Pet Trust All rights reserved | This website
+                        is made with{" "}
                         <i className="fa fa-heart" aria-hidden="true" /> by{" "}
                         <a href="https://colorlib.com" target="_blank">
                           INNVOATE_X

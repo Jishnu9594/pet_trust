@@ -22,13 +22,16 @@ const TestimonialSlider = () => {
     fetchTestimonials();
   }, []);
 
-  // Settings for Slick Slider
+  // Settings for Slick Slider with autoplay
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true, // Enables automatic sliding
+    autoplaySpeed: 3000, // Set the time for each slide (in milliseconds)
+    pauseOnHover: true, // Pause the autoplay when hovering over the slider
   };
 
   return (
@@ -41,6 +44,11 @@ const TestimonialSlider = () => {
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-xl-8 col-lg-8 col-md-10">
+            {/* Heading for the Testimonial Slider */}
+            <h2 className="testimonial-heading text-center">
+              Our Testimonials
+            </h2>
+
             <Slider {...settings}>
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="single-testimonial text-center">
