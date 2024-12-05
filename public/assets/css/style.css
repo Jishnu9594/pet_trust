@@ -2429,7 +2429,7 @@ hr {
   background: #a3a3a3;
 }
 .slider-area2 {
-  background-image: url(../img/hero/hero2.png);
+  background-image: url(../img/gallery/pet-accessories-still-life-concept-with-chew-toys.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2726,7 +2726,7 @@ hr {
 }
 .contact-form-main .from-left img {
   width: 100%;
-  height: 837px;
+  height: 100%;
 }
 .contact-form-main .form-tittle {
   background-image: url(../img/gallery/amused-surprised-smiling-redhead-girl-widen-eyes-look-impressed-as-hear-good-news-from-frien.jpg);
@@ -3279,7 +3279,7 @@ hr {
   background: #eb4916;
 }
 .about-area .about-details {
-  background-image: url(../img/gallery/young-female-doctor-hospital-worker-white-coat-thinking-looking-away-thoughtful-searching-solution-standing-toquoise-background.jpg);
+  background-image: url(../img/gallery/section_bg02.png);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6209,4 +6209,124 @@ body {
 
 .popup-close-btn:hover {
   background-color: #e60000;
+}
+
+/* General Styles */
+.about-us-section {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url(../img/gallery/pet-accessories-still-life-concept-with-chew-toys.jpg);
+  padding: 100px 0 50px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* About Details */
+.section-padding {
+  padding: 60px 15px;
+}
+
+.about-inline-block-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-card {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  width: calc(50% - 20px); /* Two cards per row with a gap */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive Styles */
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+  .about-card {
+    width: 100%; /* Stack cards vertically */
+  }
+  .hero-title {
+    font-size: 28px;
+  }
+  .about-title {
+    font-size: 20px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about-card {
+    width: 100%; /* Stack cards vertically */
+  }
+  .hero-title {
+    font-size: 32px;
+  }
+  .about-title {
+    font-size: 22px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about-card {
+    width: calc(50% - 20px); /* Two cards per row */
+  }
+  .hero-title {
+    font-size: 34px;
+  }
+  .about-title {
+    font-size: 23px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) {
+  .about-card {
+    width: calc(50% - 20px); /* Two cards per row */
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+  .about-title {
+    font-size: 24px;
+  }
+  .about-text {
+    font-size: 16px;
+  }
 }

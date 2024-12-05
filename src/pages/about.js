@@ -36,26 +36,25 @@ function About() {
         <Menu />
         <main>
           {/* Hero Area Start */}
-          <div className="slider-area2 slider-height2 d-flex align-items-center">
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-12">
-                  <div className="hero-cap text-center pt-50">
-                    <h2>About Us</h2>
+          <div className="about-us-section">
+            {/* Hero Section */}
+            <div className="hero-section">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-12 text-center">
+                    <h2 className="hero-title">About Us</h2>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          {/* Hero Area End */}
-          {/* About Details Start */}
-          <div className="about-details section-padding30">
-            <div className="container">
-              <div className="row">
-                <div className="offset-xl-1 col-lg-8">
-                  <div className="about-details-cap mb-50">
-                    <h4>Our Mission</h4>
-                    <p>
+
+            {/* About Details */}
+            <div className="about-details section-padding">
+              <div className="container">
+                <div className="about-inline-block-container">
+                  <div className="about-card">
+                    <h4 className="about-title">Our Mission</h4>
+                    <p className="about-text">
                       At Pet Trust Hospital, our mission is to provide
                       compassionate, comprehensive, and high-quality care for
                       all pets. We are committed to enhancing the lives of pets
@@ -66,9 +65,9 @@ function About() {
                       our top priority.
                     </p>
                   </div>
-                  <div className="about-details-cap mb-50">
-                    <h4>Our Vision</h4>
-                    <p>
+                  <div className="about-card">
+                    <h4 className="about-title">Our Vision</h4>
+                    <p className="about-text">
                       Our vision is to be the leading veterinary hospital,
                       recognized for our innovative approach to pet care and
                       unwavering commitment to the health and happiness of every
@@ -83,6 +82,7 @@ function About() {
               </div>
             </div>
           </div>
+
           {/* About Details End */}
           {/*? About Area Start*/}
           <div className="about-area fix">
@@ -169,19 +169,19 @@ function About() {
             <div className="container">
               <div className="row justify-content-sm-center">
                 <div className="cl-xl-7 col-lg-8 col-md-10">
-                  {/* Section Tittle */}
+                  {/* Section Title */}
                   <div className="section-tittle text-center mb-70">
-                    <span>Our Professional members </span>
-                    <h2>Our Team Mambers</h2>
+                    <span>Our Professional Members</span>
+                    <h2>Our Team Members</h2>
                   </div>
                 </div>
               </div>
               <div className="row">
-                {/* single Tem */}
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                {/* Team Member 1 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div className="single-team mb-30">
                     <div className="team-img">
-                      <img src="assets/img/gallery/team1.png" alt="" />
+                      <img src="assets/img/pettrust2/P1210326.jpg" />
                     </div>
                     <div className="team-caption">
                       <span>Mike Janathon</span>
@@ -191,10 +191,14 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                {/* Team Member 2 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div className="single-team mb-30">
                     <div className="team-img">
-                      <img src="assets/img/gallery/team2.png" alt="" />
+                      <img
+                        src="assets/img/pettrust2/P1210240.jpg"
+                        alt="Team Member 2"
+                      />
                     </div>
                     <div className="team-caption">
                       <span>Mike J Smith</span>
@@ -204,15 +208,142 @@ function About() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                {/* Team Member 3 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div className="single-team mb-30">
                     <div className="team-img">
-                      <img src="assets/img/gallery/team3.png" alt="" />
+                      <img src="assets/img/pettrust2/P1210246 .jpg" />
                     </div>
                     <div className="team-caption">
                       <span>Pule W Smith</span>
                       <h3>
                         <a href="#">Doctor</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 4 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210255.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Anna Williams</span>
+                      <h3>
+                        <a href="#">Nurse</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 5 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210261 .jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>John Doe</span>
+                      <h3>
+                        <a href="#">Surgeon</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 6 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210265.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Jane Smith</span>
+                      <h3>
+                        <a href="#">Therapist</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 7 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210272.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>James Brown</span>
+                      <h3>
+                        <a href="#">Pharmacist</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 8 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210284.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Emily Davis</span>
+                      <h3>
+                        <a href="#">Pediatrician</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 9 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210302.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Chris Johnson</span>
+                      <h3>
+                        <a href="#">Cardiologist</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 10 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210291.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Sarah Wilson</span>
+                      <h3>
+                        <a href="#">Dentist</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 11 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210310.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Daniel Green</span>
+                      <h3>
+                        <a href="#">Radiologist</a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                {/* Team Member 12 */}
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-team mb-30">
+                    <div className="team-img">
+                      <img src="assets/img/pettrust2/P1210354.jpg" />
+                    </div>
+                    <div className="team-caption">
+                      <span>Olivia Martinez</span>
+                      <h3>
+                        <a href="#">Pathologist</a>
                       </h3>
                     </div>
                   </div>

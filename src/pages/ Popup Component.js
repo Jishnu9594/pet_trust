@@ -1,22 +1,24 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AppointmentPopup = () => {
-  // State to manage whether the popup is visible or not
   const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const navigate = useNavigate();
 
-  // useEffect hook to display popup on page load
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsPopupVisible(true); // Show the popup after the page has loaded
-    }, 1000); // 1000ms delay (adjust as needed)
+      setIsPopupVisible(true);
+    }, 1000);
 
-    // Cleanup timeout if the component unmounts or popup is closed
     return () => clearTimeout(timer);
   }, []);
 
-  // Close the popup
   const closePopup = () => {
     setIsPopupVisible(false);
+  };
+
+  const handleBookAppointment = () => {
+    navigate("/contact-form");
   };
 
   return (
@@ -32,7 +34,12 @@ const AppointmentPopup = () => {
               <button className="popup-close-btn" onClick={closePopup}>
                 Close
               </button>
-              <button className="popup-book-btn">Book Appointment</button>
+              <button
+                className="popup-book-btn"
+                onClick={handleBookAppointment}
+              >
+                Book Appointment
+              </button>
             </div>
           </div>
         </div>

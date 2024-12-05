@@ -389,7 +389,7 @@ function Index() {
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                   <div className="single-team mb-30">
                     <div className="team-img">
-                      <img src="assets/img/pettrust2/P1210240.jpg" />
+                      <img src="assets/img/pettrust2/P1210326.jpg" />
                     </div>
                     <div className="team-caption">
                       <span>Mike Janathon</span>
@@ -404,7 +404,7 @@ function Index() {
                   <div className="single-team mb-30">
                     <div className="team-img">
                       <img
-                        src="assets/img/pettrust2/P1210326.jpg"
+                        src="assets/img/pettrust2/P1210240.jpg"
                         alt="Team Member 2"
                       />
                     </div>

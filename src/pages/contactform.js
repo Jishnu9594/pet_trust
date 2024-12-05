@@ -150,7 +150,8 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="from-left d-none d-lg-block">
-        <img src="assets/img/gallery/contact_form.png" alt="" />
+        <img src="assets/img/pettrust1/P1210473.JPG" alt="" />
+        <img src="assets/img/pettrust1/P1210497.JPG" alt="" />
       </div>
 
       {/* Pop-up Message */}
