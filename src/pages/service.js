@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Menu from "../menu";
-
+import { Link, useLocation } from "react-router-dom";
 function Service() {
   return (
     <Fragment>
@@ -373,19 +373,19 @@ function Service() {
                       <h4>Pet Trust Hospital</h4>
                       <ul>
                         <li>
-                          <a href="index.html">Home</a>
+                          <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <a href="about.html">About Us</a>
+                          <Link to="/about">About</Link>
                         </li>
                         <li>
-                          <a href="single-blog.html">Services</a>
+                          <Link to="/services">Services</Link>
                         </li>
                         <li>
-                          <a href="#">Cases</a>
+                          <Link to="/blog">Blog</Link>
                         </li>
                         <li>
-                          <a href="contact.html"> Contact Us</a>
+                          <Link to="/contact">Contact</Link>
                         </li>
                       </ul>
                     </div>
