@@ -2283,35 +2283,27 @@ hr {
   background-image: url(../img/team/banner.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; /* Ensures the image covers the whole area */
-  /* Optional: for a parallax effect, remove if not needed */
-  height: 110vh; /* Set the height to fill the viewport */
-}
-
-@media screen and (max-width: 768px) {
-  .slider-area {
-    background-attachment: scroll; /* Disable parallax effect on smaller screens */
-    height: 60vh; /* Reduce height for smaller screens */
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .slider-area {
-    background-position: top center; /* Adjust the alignment for very small screens */
-    height: 50vh; /* Further reduce height on small devices */
-  }
+  background-size: cover; /* Ensures the image fully covers the area */
+  height: 110vh; /* Adjusted to ensure full screen fit */
+  overflow: hidden; /* Prevents image overflow */
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area {
-    padding-top: 30px;
+    padding-top: 30px; /* Adjusts padding for medium devices */
+    background-position: top center; /* Aligns the image to the top for better visibility */
+    height: 100vh; /* Full screen height */
   }
 }
+
 @media (max-width: 575px) {
   .slider-area {
-    padding-top: 80px;
+    padding-top: 80px; /* More padding for smaller devices */
+    background-position: top center; /* Align the image to the top */
+    height: 100vh; /* Full screen height */
   }
 }
+
 .slider-area .hero__caption {
   overflow: hidden;
   position: relative;
