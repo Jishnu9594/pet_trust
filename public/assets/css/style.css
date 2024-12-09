@@ -2283,27 +2283,18 @@ hr {
   background-image: url(../img/team/banner.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; /* Ensures the image fully covers the area */
-  height: 110vh; /* Adjusted to ensure full screen fit */
-  overflow: hidden; /* Prevents image overflow */
+  background-size: cover;
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area {
-    padding-top: 30px; /* Adjusts padding for medium devices */
-    background-position: top center; /* Aligns the image to the top for better visibility */
-    height: 100vh; /* Full screen height */
+    padding-top: 30px;
   }
 }
-
 @media (max-width: 575px) {
   .slider-area {
-    padding-top: 80px; /* More padding for smaller devices */
-    background-position: top center; /* Align the image to the top */
-    height: 100vh; /* Full screen height */
+    padding-top: 80px;
   }
 }
-
 .slider-area .hero__caption {
   overflow: hidden;
   position: relative;
@@ -6347,7 +6338,7 @@ body {
 }
 /* ContactForm.css */
 .contact-form-main {
-  background-image: url(../img/gallery/section_bg02.png);
+  background-image: url(../img/gallery/section_bg04.png);
   padding: 50px 0;
 }
 
