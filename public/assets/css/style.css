@@ -2284,6 +2284,7 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  height: 110vh;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area {
@@ -6338,7 +6339,7 @@ body {
 }
 /* ContactForm.css */
 .contact-form-main {
-  background-image: url(../img/gallery/section_bg04.png);
+  background-image: url(../img/gallery/section_bg02.png);
   padding: 50px 0;
 }
 
