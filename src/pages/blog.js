@@ -37,7 +37,11 @@ function Blog() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/Group-2.png" alt="Logo" />
+                          <img
+                            src="assets/img/logo/pettrustlogo"
+                            alt="Logo"
+                            className="logo-image"
+                          />
                         </a>
                       </div>
                       <div className="footer-tittle">

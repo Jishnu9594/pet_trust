@@ -6330,3 +6330,167 @@ body {
     font-size: 16px;
   }
 }
+.logo-image {
+  display: block; /* Makes the image a block-level element */
+  max-width: 100%; /* Ensures it is responsive */
+  height: auto; /* Keeps aspect ratio intact */
+  margin: 0 auto; /* Centers the logo horizontally */
+}
+/* ContactForm.css */
+.contact-form-main {
+  background-image: url(../img/gallery/section_bg02.png);
+  padding: 50px 0;
+}
+
+.form-wrapper {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.left-heading-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.left-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.4;
+  animation: fadeInLeft 2s ease-out;
+}
+
+.animate-heading {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+textarea {
+  height: 150px;
+}
+
+.form-submit button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit button:hover {
+  background-color: #5a54e6;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.popup-close-btn {
+  background-color: #6c63ff;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.popup-close-btn:hover {
+  background-color: #5a54e6;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-main {
+    padding: 20px 0;
+  }
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .left-heading {
+    font-size: 22px;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .left-heading-wrapper {
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

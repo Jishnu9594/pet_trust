@@ -117,8 +117,11 @@ function Contact() {
                     <i className="ti-home" />
                   </span>
                   <div className="media-body">
-                    <h3>Buttonwood, California.</h3>
-                    <p>Rosemead, CA 91770</p>
+                    <h3>
+                      PET TRUST - Pet Hospital Kochi, Veterinary Hospital Kochi,
+                      Pet Clinic Kochi, Veterinary Doctor Kochi
+                    </h3>
+                    <p></p>
                   </div>
                 </div>
                 <div className="media contact-info">
@@ -126,8 +129,8 @@ function Contact() {
                     <i className="ti-tablet" />
                   </span>
                   <div className="media-body">
-                    <h3>+1 253 565 2365</h3>
-                    <p>Mon to Fri 9am to 6pm</p>
+                    <h3>+91 6235806114 +91 6235806115</h3>
+                    <p>Mon to Sat 8.00 am – 9.00 pm</p>
                   </div>
                 </div>
                 <div className="media contact-info">
@@ -135,7 +138,7 @@ function Contact() {
                     <i className="ti-email" />
                   </span>
                   <div className="media-body">
-                    <h3>support@colorlib.com</h3>
+                    <h3>info@pettrust.com</h3>
                     <p>Send us your query anytime!</p>
                   </div>
                 </div>
@@ -155,15 +158,16 @@ function Contact() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/logo/logo2_footer.png" alt="" />
+                          <img
+                            src="assets/img/logo/pettrustlogo"
+                            alt="Logo"
+                            className="logo-image"
+                          />
                         </a>
                       </div>
                       <div className="footer-tittle">
                         <div className="footer-pera">
-                          <p>
-                            Lorem ipsum dolor sit amet, adipiscing elit, sed do
-                            eiusmod tempor elit.{" "}
-                          </p>
+                          <p>Valuing Your Pet’s Health at Pet Trust Hospital</p>
                         </div>
                       </div>
                       {/* social */}
@@ -187,7 +191,7 @@ function Contact() {
                 <div className="col-xl-2 col-lg-2 col-md-4 col-sm-5">
                   <div className="single-footer-caption mb-50">
                     <div className="footer-tittle">
-                      <h4>Company</h4>
+                      <h4>Pet Trust Hospital</h4>
                       <ul>
                         <li>
                           <a href="index.html">Home</a>
@@ -214,19 +218,26 @@ function Contact() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Commercial Cleaning</a>
+                          <a href="#">Pet Boarding</a>
                         </li>
                         <li>
-                          <a href="#">Office Cleaning</a>
+                          <a href="#">Pet Treatment</a>
                         </li>
                         <li>
-                          <a href="#">Building Cleaning</a>
+                          <a href="#">Vaccinations</a>
                         </li>
                         <li>
-                          <a href="#">Floor Cleaning</a>
+                          <a href="#">Department of Surgery</a>
                         </li>
                         <li>
-                          <a href="#">Apartment Cleaning</a>
+                          <a href="#">Department of Veterinary Medicine</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <li>
+                              <a href="#">Department of Veterinary Medicine</a>
+                            </li>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -238,13 +249,17 @@ function Contact() {
                       <h4>Get in Touch</h4>
                       <ul>
                         <li>
-                          <a href="#">152-515-6565</a>
+                          <a href="#">+91 6235806114</a>|
+                          <a href="#">+91 6235806114</a>
                         </li>
                         <li>
-                          <a href="#"> Demomail@gmail.com</a>
+                          <a href="#"> infopettrust@gmail.com</a>
                         </li>
                         <li>
-                          <a href="#">New Orleans, USA</a>
+                          <a href="#">
+                            PET TRUST - Pet Hospital Kochi, Veterinary Hospital
+                            Kochi, Pet Clinic Kochi, Veterinary Doctor Kochi
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -262,10 +277,11 @@ function Contact() {
                     <div className="footer-copy-right text-center">
                       <p>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                        Copyright © All rights reserved | This template is made
-                        with <i className="fa fa-heart" aria-hidden="true" /> by{" "}
+                        Copyright © Pet Trust All rights reserved | This website
+                        is made with{" "}
+                        <i className="fa fa-heart" aria-hidden="true" /> by{" "}
                         <a href="https://colorlib.com" target="_blank">
-                          Colorlib
+                          INNVOATE_X
                         </a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                       </p>

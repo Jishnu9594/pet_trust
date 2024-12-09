@@ -37,7 +37,6 @@ const ContactForm = () => {
     }
   };
 
-  // Close the pop-up message
   const closePopup = () => {
     setShowPopup(false);
   };
@@ -45,113 +44,93 @@ const ContactForm = () => {
   return (
     <div className="contact-form-main pb-top">
       <div className="container">
-        <div className="row justify-content-md-end">
+        <div className="row justify-content-md-between">
+          <div className="col-xl-5 col-lg-5">
+            <div className="left-heading-wrapper">
+              <h2 className="left-heading animate-heading">
+                Book Your Pet's Health Checkup Today at Pet Trust Hospital!
+              </h2>
+            </div>
+          </div>
           <div className="col-xl-7 col-lg-7">
             <div className="form-wrapper">
-              <div className="form-tittle">
-                <div className="row">
-                  <div className="col-xl-12">
-                    <div className="section-tittle section-tittle2 mb-70">
-                      <h2>
-                        Schedule Your Pet's Health Checkup with Pet Trust!
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2 className="form-title animate-heading">
+                Schedule Your Pet's Health Checkup with Pet Trust!
+              </h2>
               <form id="contact-form" onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6">
-                    <div className="form-box user-icon mb-30">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="form-box email-icon mb-30">
-                      <input
-                        type="text"
-                        name="phone"
-                        placeholder="Phone"
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="select-itms">
-                      <select name="service" onChange={handleChange}>
-                        <option value="">Select Service</option>
-                        <option value="Health Law">Health Law</option>
-                        <option value="Saiful Islam">Saiful Islam</option>
-                        <option value="Arafath Miya">Arafath Miya</option>
-                        <option value="Shakil Miya">Shakil Miya</option>
-                        <option value="Tamim Sharker">Tamim Sharker</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="form-box subject-icon mb-30">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="form-box mb-30">
-                      <label htmlFor="date">Date</label>
-                      <input
-                        type="date"
-                        id="date"
-                        name="date"
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="form-box mb-30">
-                      <label htmlFor="time">Time</label>
-                      <input
-                        type="time"
-                        id="time"
-                        name="time"
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-12">
-                    <div className="form-box message-icon mb-65">
-                      <textarea
-                        name="message"
-                        id="message"
-                        placeholder="Message"
-                        onChange={handleChange}
-                      ></textarea>
-                    </div>
-                    <div className="submit-info">
-                      <button className="btn submit-btn2" type="submit">
-                        Submit Now
-                      </button>
-                    </div>
-                  </div>
+                <div className="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    onChange={handleChange}
+                    required
+                  />
                 </div>
-                <div className="shape-dog">
-                  <img src="assets/img/gallery/shape1.png" alt="" />
+                <div className="form-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="Phone"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <select name="service" onChange={handleChange} required>
+                    <option value="">Select Service</option>
+                    <option value="Health Law">Health Law</option>
+                    <option value="Saiful Islam">Saiful Islam</option>
+                    <option value="Arafath Miya">Arafath Miya</option>
+                    <option value="Shakil Miya">Shakil Miya</option>
+                    <option value="Tamim Sharker">Tamim Sharker</option>
+                  </select>
+                </div>
+                <div className="form-group">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="date">Date</label>
+                  <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="time">Time</label>
+                  <input
+                    type="time"
+                    id="time"
+                    name="time"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    onChange={handleChange}
+                    required
+                  ></textarea>
+                </div>
+                <div className="form-submit">
+                  <button type="submit">Submit Now</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </div>
-      <div className="from-left d-none d-lg-block">
-        <img src="assets/img/pettrust1/P1210473.JPG" alt="" />
-        <img src="assets/img/pettrust1/P1210497.JPG" alt="" />
       </div>
 
       {/* Pop-up Message */}

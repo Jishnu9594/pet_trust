@@ -392,9 +392,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210326.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Mike Janathon</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -409,9 +409,9 @@ function Index() {
                       />
                     </div>
                     <div className="team-caption">
-                      <span>Mike J Smith</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -423,9 +423,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210246 .jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Pule W Smith</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -437,9 +437,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210255.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Anna Williams</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Nurse</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -451,9 +451,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210261 .jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>John Doe</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Surgeon</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -465,9 +465,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210265.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Jane Smith</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Therapist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -479,9 +479,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210272.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>James Brown</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Pharmacist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -493,9 +493,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210284.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Emily Davis</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Pediatrician</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -507,9 +507,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210302.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Chris Johnson</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Cardiologist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -521,9 +521,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210291.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Sarah Wilson</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Dentist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -535,9 +535,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210310.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Daniel Green</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Radiologist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -549,9 +549,9 @@ function Index() {
                       <img src="assets/img/pettrust2/P1210354.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Olivia Martinez</span>
+                      <span>Name</span>
                       <h3>
-                        <a href="#">Pathologist</a>
+                        <a href="#">Role</a>
                       </h3>
                     </div>
                   </div>
@@ -617,7 +617,11 @@ function Index() {
                       {/* logo */}
                       <div className="footer-logo mb-25">
                         <a href="index.html">
-                          <img src="assets/img/Group-2.png" alt="Logo" />
+                          <img
+                            src="assets/img/logo/pettrustlogo"
+                            alt="Logo"
+                            className="logo-image"
+                          />
                         </a>
                       </div>
                       <div className="footer-tittle">

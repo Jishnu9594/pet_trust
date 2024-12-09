@@ -1,8 +1,14 @@
-import React, { useState, Fragment } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect, Fragment } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Menu() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -11,7 +17,6 @@ function Menu() {
   return (
     <Fragment>
       <header>
-        {/* Header Start */}
         <div className="header-area header-transparent">
           <div className="main-header header-sticky">
             <div className="container-fluid">
@@ -20,7 +25,7 @@ function Menu() {
                 <div className="col-xl-2 col-lg-2 col-md-2 col-6">
                   <div className="logo">
                     <Link to="/">
-                      <img src="assets/img/Group-2.png" alt="Logo" />
+                      <img src="assets/img/logo/pettrustlogo" alt="Logo" />
                     </Link>
                   </div>
                 </div>
@@ -120,7 +125,6 @@ function Menu() {
             )}
           </div>
         </div>
-        {/* Header End */}
       </header>
     </Fragment>
   );
