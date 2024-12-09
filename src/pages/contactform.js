@@ -54,9 +54,7 @@ const ContactForm = () => {
           </div>
           <div className="col-xl-7 col-lg-7">
             <div className="form-wrapper">
-              <h2 className="form-title animate-heading">
-                Schedule Your Pet's Health Checkup with Pet Trust!
-              </h2>
+              <h2 className="form-title animate-heading"></h2>
               <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                   <input
