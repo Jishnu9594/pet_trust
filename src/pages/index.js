@@ -35,9 +35,7 @@ function Index() {
                         </a>
                       </div>
                       <div className="hero__caption">
-                        <span data-animation="fadeInUp" data-delay=".3s">
-                          Trusted Care for Your Pets
-                        </span>
+                        <span data-animation="fadeInUp" data-delay=".3s"></span>
                         <h1 data-animation="fadeInUp" data-delay=".3s">
                           We Care Your Pets.
                         </h1>
