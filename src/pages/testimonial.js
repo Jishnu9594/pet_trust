@@ -12,7 +12,7 @@ const TestimonialSlider = () => {
     const fetchTestimonials = async () => {
       try {
         const response = await axios.get(
-          "http://127.0.0.1:8000/pet/testimonials/"
+          "https://pettrust-backend-1wzw.onrender.com/pet/testimonials/"
         );
         setTestimonials(response.data);
       } catch (error) {
@@ -80,7 +80,7 @@ const TestimonialSlider = () => {
                         {/* Profile image */}
                         {testimonial.image && (
                           <img
-                            src={`http://127.0.0.1:8000${testimonial.image}`}
+                            src={`https://pettrust-backend-1wzw.onrender.com${testimonial.image}`}
                             alt={`${testimonial.name} - Testimonial`} // Providing a meaningful alt text
                             style={{
                               width: "100px",
