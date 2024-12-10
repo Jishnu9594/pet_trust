@@ -8,7 +8,9 @@ const BlogSection = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://127.0.0.1:8000/pet/blogs/");
+        const response = await axios.get(
+          "https://pettrust-backend-1wzw.onrender.com/pet/blogs/"
+        );
         setBlogs(response.data);
       } catch (error) {
         console.error("Error fetching blogs:", error);
