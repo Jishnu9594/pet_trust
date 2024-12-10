@@ -184,9 +184,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210326.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Mike Janathon</span>
+                      <span>DR. JOBY GEORGE BVSc &AH , PGDTMD</span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">MEDICAL DIRECTOR</a>
                       </h3>
                     </div>
                   </div>
@@ -201,9 +201,9 @@ function About() {
                       />
                     </div>
                     <div className="team-caption">
-                      <span>Mike J Smith</span>
+                      <span>DR. MITHUN KAPOOR BVSc & AH </span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">VETERINARY SURGEON</a>
                       </h3>
                     </div>
                   </div>
@@ -215,9 +215,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210246 .jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Pule W Smith</span>
+                      <span>DR. ASWATHY NAIR MVSc (Microbiology)</span>
                       <h3>
-                        <a href="#">Doctor</a>
+                        <a href="#">veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -229,9 +229,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210255.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Anna Williams</span>
+                      <span>DR. DEVIKA TS,BVSc & AH</span>
                       <h3>
-                        <a href="#">Nurse</a>
+                        <a href="#">Veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -243,9 +243,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210261 .jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>John Doe</span>
+                      <span>DR. MALAVIKA BVSc&AH </span>
                       <h3>
-                        <a href="#">Surgeon</a>
+                        <a href="#">Veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -257,9 +257,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210265.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Jane Smith</span>
+                      <span>DR.George Rikku Roshan BVSc &AH</span>
                       <h3>
-                        <a href="#">Therapist</a>
+                        <a href="#">Veterinary Surgeon & Unit HEAD</a>
                       </h3>
                     </div>
                   </div>
@@ -271,9 +271,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210272.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>James Brown</span>
+                      <span>DR. Sravan BVSc &AH</span>
                       <h3>
-                        <a href="#">Pharmacist</a>
+                        <a href="#">veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -285,9 +285,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210284.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Emily Davis</span>
+                      <span></span>
                       <h3>
-                        <a href="#">Pediatrician</a>
+                        <a href="#"></a>
                       </h3>
                     </div>
                   </div>
@@ -299,9 +299,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210302.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Chris Johnson</span>
+                      <span>DR. ASHIR KI BVSc & AH</span>
                       <h3>
-                        <a href="#">Cardiologist</a>
+                        <a href="#">veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -313,9 +313,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210291.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Sarah Wilson</span>
+                      <span>DR. Greeshma P BVSc &AH</span>
                       <h3>
-                        <a href="#">Dentist</a>
+                        <a href="#">Veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>
@@ -327,9 +327,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210310.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Daniel Green</span>
+                      <span>DR. Parvathi Abhijith BVSc &AH</span>
                       <h3>
-                        <a href="#">Radiologist</a>
+                        <a href="#">Veterinary Surgeon & Unit HEAD</a>
                       </h3>
                     </div>
                   </div>
@@ -341,9 +341,9 @@ function About() {
                       <img src="assets/img/pettrust2/P1210354.jpg" />
                     </div>
                     <div className="team-caption">
-                      <span>Olivia Martinez</span>
+                      <span>DR. Maneesha BVSc & AH</span>
                       <h3>
-                        <a href="#">Pathologist</a>
+                        <a href="#">Veterinary Surgeon</a>
                       </h3>
                     </div>
                   </div>

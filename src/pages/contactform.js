@@ -77,11 +77,39 @@ const ContactForm = () => {
                 <div className="form-group">
                   <select name="service" onChange={handleChange} required>
                     <option value="">Select Service</option>
-                    <option value="Health Law">Health Law</option>
-                    <option value="Saiful Islam">Saiful Islam</option>
-                    <option value="Arafath Miya">Arafath Miya</option>
-                    <option value="Shakil Miya">Shakil Miya</option>
-                    <option value="Tamim Sharker">Tamim Sharker</option>
+                    <option value="Pet Boarding">Pet Boarding</option>
+                    <option value="Pet Treatment">Pet Treatment</option>
+                    <option value="Vaccinations">Vaccinations</option>
+                    <option value="Department of Surgery">
+                      Department of Surgery
+                    </option>
+                    <option value="Department of Veterinary Medicine">
+                      Department of Veterinary Medicine
+                    </option>
+                    <option value="Department of Veterinary Medicine">
+                      Department of Veterinary Medicine
+                    </option>
+                    <option
+                      value="
+Department of Diagnostic Imaging"
+                    >
+                      Department of Diagnostic Imaging
+                    </option>
+                    <option
+                      value="Department of Obstetrics and Gynecology
+"
+                    >
+                      Department of Obstetrics and Gynecology
+                    </option>
+                    <option value="Pet Dental Care And Treatment in Cochin">
+                      Pet Dental Care And Treatment in Cochin
+                    </option>
+                    <option value="Laboratory">Laboratory</option>
+                    <option value="Wellness Programs">Wellness Programs</option>
+                    <option value="Pet Nutrition">Pet Nutrition</option>
+                    <option value="Department of Interventional Radiography">
+                      Department of Interventional Radiography
+                    </option>
                   </select>
                 </div>
                 <div className="form-group">
