@@ -3,6 +3,7 @@ import Menu from "../menu";
 import ContactForm from "./contactform";
 import BlogSection from "./blogindex";
 import { Link, useLocation } from "react-router-dom";
+import { FaBullhorn, FaEye } from "react-icons/fa";
 function About() {
   return (
     <Fragment>
@@ -53,6 +54,7 @@ function About() {
               <div className="container">
                 <div className="about-inline-block-container">
                   <div className="about-card">
+                    <FaBullhorn className="about-icon" />
                     <h4 className="about-title">Our Mission</h4>
                     <p className="about-text">
                       At Pet Trust Hospital, our mission is to provide
@@ -66,6 +68,7 @@ function About() {
                     </p>
                   </div>
                   <div className="about-card">
+                    <FaEye className="about-icon" />
                     <h4 className="about-title">Our Vision</h4>
                     <p className="about-text">
                       Our vision is to be the leading veterinary hospital,
