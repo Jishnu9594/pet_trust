@@ -6445,7 +6445,7 @@ textarea {
 }
 
 .form-submit button:hover {
-  background-color: #5a54e6;
+  background-color: red;
 }
 
 .popup-overlay {
