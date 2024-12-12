@@ -4,6 +4,7 @@ import ContactForm from "./contactform";
 import BlogSection from "./blogindex";
 import { Link, useLocation } from "react-router-dom";
 import { FaBullhorn, FaEye } from "react-icons/fa";
+import { FaHeartbeat, FaUserMd, FaHandsHelping } from "react-icons/fa"; // Importing icons
 function About() {
   return (
     <Fragment>
@@ -50,37 +51,104 @@ function About() {
             </div>
 
             {/* About Details */}
-            <div className="about-details section-padding">
+            <div className="why-choose-us section-padding">
               <div className="container">
-                <div className="about-inline-block-container">
-                  <div className="about-card">
-                    <FaBullhorn className="about-icon" />
-                    <h4 className="about-title">Our Mission</h4>
-                    <p className="about-text">
-                      At Pet Trust Hospital, our mission is to provide
-                      compassionate, comprehensive, and high-quality care for
-                      all pets. We are committed to enhancing the lives of pets
-                      and their families by offering advanced medical treatment,
-                      preventive care, and exceptional customer service. Our
-                      dedicated team of veterinary professionals strives to
-                      ensure the well-being of every pet, making their health
-                      our top priority.
+                <div className="row justify-content-center">
+                  <div className="col-12 text-center">
+                    <h3 className="section-title">
+                      Why Choose Pet Trust Hospital?
+                    </h3>
+                    <p className="section-subtitle">
+                      Here are a few reasons why we stand out.
                     </p>
                   </div>
-                  <div className="about-card">
-                    <FaEye className="about-icon" />
-                    <h4 className="about-title">Our Vision</h4>
-                    <p className="about-text">
-                      Our vision is to be the leading veterinary hospital,
-                      recognized for our innovative approach to pet care and
-                      unwavering commitment to the health and happiness of every
-                      pet. We aim to create a safe, supportive, and welcoming
-                      environment for pets and their owners, ensuring that every
-                      visit is a positive experience. Through continuous
-                      learning, advanced technology, and personalized care, we
-                      aspire to set a new standard in veterinary excellence.
-                    </p>
+                </div>
+                <div className="row">
+                  {/* Why Pet Trust Hospital Card 1 */}
+                  <div className="col-md-4">
+                    <div className="why-card">
+                      <FaHeartbeat className="why-icon" />
+                      <h4 className="why-title">Comprehensive Care</h4>
+                      <p className="why-text">
+                        We provide a wide range of services from preventive care
+                        to complex surgeries, ensuring your pet receives the
+                        best care.
+                      </p>
+                    </div>
                   </div>
+                  {/* Why Pet Trust Hospital Card 2 */}
+                  <div className="col-md-4">
+                    <div className="why-card">
+                      <FaUserMd className="why-icon" />
+                      <h4 className="why-title">Expert Doctors</h4>
+                      <p className="why-text">
+                        Our team of experienced veterinarians is dedicated to
+                        providing expert care with a personal touch for your
+                        pets.
+                      </p>
+                    </div>
+                  </div>
+                  {/* Why Pet Trust Hospital Card 3 */}
+                  <div className="col-md-4">
+                    <div className="why-card">
+                      <FaBullhorn className="why-icon" />
+                      <h4 className="why-title">Trusted by Pet Owners</h4>
+                      <p className="why-text">
+                        Pet owners trust us because we prioritize your pet’s
+                        health and well-being above everything else.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-details section-padding">
+            <h3 className="section-title">Mission and Vission</h3>
+            <br></br>
+            <div className="container">
+              <div className="about-inline-block-container">
+                <div className="about-card">
+                  <FaBullhorn className="about-icon" />
+                  <h4 className="about-title">Our Mission</h4>
+                  <p className="about-text">
+                    At Pet Trust Hospital, our mission is to provide
+                    compassionate, comprehensive, and high-quality care for all
+                    pets. We are committed to enhancing the lives of pets and
+                    their families by offering advanced medical treatment,
+                    preventive care, and exceptional customer service. Our
+                    dedicated team of veterinary professionals strives to ensure
+                    the well-being of every pet, making their health our top
+                    priority.
+                  </p>
+                </div>
+                <div className="about-card">
+                  <FaEye className="about-icon" />
+                  <h4 className="about-title">Our Vision</h4>
+                  <p className="about-text">
+                    Our vision is to be the leading veterinary hospital,
+                    recognized for our innovative approach to pet care and
+                    unwavering commitment to the health and happiness of every
+                    pet. We aim to create a safe, supportive, and welcoming
+                    environment for pets and their owners, ensuring that every
+                    visit is a positive experience. Through continuous learning,
+                    advanced technology, and personalized care, we aspire to set
+                    a new standard in veterinary excellence.
+                  </p>
+                </div>
+                <div className="about-card">
+                  <FaHandsHelping className="about-icon" />
+                  <h4 className="about-title">Our Values</h4>
+                  <p className="about-text">
+                    At Pet Trust Hospital, we uphold the values of compassion,
+                    integrity, respect, and excellence. We believe in treating
+                    every pet with the utmost care and respect, creating a
+                    culture of trust and understanding with both pets and their
+                    families. Our values guide every decision we make and drive
+                    us to provide the highest level of care while maintaining a
+                    positive and nurturing environment for all.
+                  </p>
                 </div>
               </div>
             </div>

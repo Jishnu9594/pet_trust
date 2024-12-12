@@ -2411,7 +2411,7 @@ hr {
   }
 }
 .slider-area .hero__caption a {
-  color: #111111;
+  color: #fff;
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 500;
@@ -6265,7 +6265,9 @@ body {
 /* General Styles */
 .section-padding {
   padding: 60px 15px;
-  background-image: url(../img/gallery/section_bg02.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-inline-block-container {
@@ -6371,7 +6373,7 @@ body {
 }
 /* ContactForm.css */
 .contact-form-main {
-  background-image: url(../img/gallery/section_bg02.png);
+  background-image: url(../img/gallery/section_bg03.png);
   padding: 50px 0;
 }
 
@@ -6399,7 +6401,7 @@ body {
 .left-heading {
   font-size: 28px;
   font-weight: 700;
-  color: #333;
+  color: #fff;
   line-height: 1.4;
   animation: fadeInLeft 2s ease-out;
 }
@@ -6526,4 +6528,173 @@ textarea {
     opacity: 1;
     transform: translateX(0);
   }
+}
+.hero-btn.book-btn {
+  display: inline-flex; /* Flexbox for better alignment */
+  align-items: center; /* Vertically center the text and icon */
+  justify-content: center; /* Horizontally center the content */
+  padding: 8px 12px; /* Reduced padding for narrower button */
+  background: linear-gradient(
+    45deg,
+    #1b15cf,
+    #2575fc
+  ); /* Gradient background */
+  color: white;
+  border: 2px transparent;
+  border-radius: 25px; /* Slightly rounded corners */
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px; /* Smaller font size */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 250px;
+  position: relative;
+  left: 100px;
+}
+
+.hero-btn.book-btn.hero-caption.a {
+  color: #fff;
+}
+
+.hero-btn.book-btn i {
+  margin-left: 6px; /* Reduced space between text and icon */
+  font-size: 16px; /* Smaller icon size */
+}
+
+.hero-btn.book-btn:hover {
+  background: linear-gradient(
+    45deg,
+    #2575fc,
+    #6a11cb
+  ); /* Reverse gradient on hover */
+  transform: translateY(-3px); /* Slight lift effect */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.hero-btn.book-btn:active {
+  transform: translateY(1px); /* Slight push effect on click */
+}
+
+/* Media Query for Tablets and Larger Devices */
+@media (max-width: 768px) {
+  .hero-btn.book-btn {
+    width: 200px; /* Reduced width for tablet devices */
+    padding: 10px 15px; /* Slightly larger padding for touch devices */
+    font-size: 16px; /* Larger font size for readability */
+    left: 50px; /* Adjust left position */
+  }
+
+  .hero-btn.book-btn i {
+    font-size: 18px; /* Slightly larger icon for mobile devices */
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .hero-btn.book-btn {
+    width: 180px; /* Further reduced width for mobile devices */
+    padding: 8px 12px; /* Adjust padding for small screens */
+    font-size: 14px; /* Smaller font size for mobile devices */
+    left: 0; /* Center the button on mobile */
+    display: block; /* Make the button a block element for better alignment */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+
+  .hero-btn.book-btn i {
+    font-size: 14px; /* Adjust icon size for mobile */
+    margin-left: 4px; /* Reduce space between text and icon */
+  }
+}
+/* Hover effects for the Why Choose Us section */
+.why-card {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.why-card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.why-card .why-icon {
+  font-size: 36px;
+  color: #6c63ff;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.why-card:hover .why-icon {
+  color: #2575fc; /* Change icon color on hover */
+}
+
+.why-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.why-card:hover .why-title {
+  color: #2575fc; /* Change title color on hover */
+}
+
+.why-text {
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.why-card:hover .why-text {
+  color: #666; /* Change text color on hover */
+}
+
+/* Hover effects for the Doctors section */
+.doctor-card {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.doctor-card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.doctor-icon {
+  font-size: 36px;
+  color: #6c63ff;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.doctor-card:hover .doctor-icon {
+  color: #2575fc; /* Change icon color on hover */
+}
+
+.doctor-count {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2575fc;
+  transition: color 0.3s ease;
+}
+
+.doctor-card:hover .doctor-count {
+  color: #6c63ff; /* Change count color on hover */
+}
+
+.doctor-text {
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.doctor-card:hover .doctor-text {
+  color: #666; /* Change text color on hover */
 }

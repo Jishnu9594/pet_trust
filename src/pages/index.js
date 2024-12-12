@@ -4,6 +4,8 @@ import ContactForm from "./contactform";
 import TestimonialSlider from "./testimonial";
 import BlogSection from "./blogindex";
 import AppointmentPopup from "./ Popup Component";
+import BookAppointmentButton from "./ BookAppointmentButton";
+import Gallery from "./gallery";
 import { Link, useLocation } from "react-router-dom";
 
 function Index() {
@@ -44,15 +46,7 @@ function Index() {
                           attention to your furry friends, ensuring they live
                           happy and healthy lives.
                         </p>
-                        <a
-                          href="#"
-                          className="hero-btn"
-                          data-animation="fadeInLeft"
-                          data-delay=".3s"
-                        >
-                          Contact Now
-                          <i className="ti-arrow-right" />{" "}
-                        </a>
+                        <BookAppointmentButton />
                       </div>
                     </div>
                   </div>
@@ -335,7 +329,7 @@ function Index() {
                       className="gallery-img size-img"
                       style={{
                         backgroundImage:
-                          "url(assets/img/pettrust1/P1210081.JPG)",
+                          "url(assets/img/pettrust1/P1210413.JPG)",
                       }}
                     />
                   </div>
