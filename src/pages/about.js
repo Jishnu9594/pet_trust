@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import Menu from "../menu";
 import ContactForm from "./contactform";
 import BlogSection from "./blogindex";
+import QuickFactors from "./quickfactors";
+import AboutSection from "./aboutpage";
 import { Link, useLocation } from "react-router-dom";
 import { FaBullhorn, FaEye } from "react-icons/fa";
 import { FaHeartbeat, FaUserMd, FaHandsHelping } from "react-icons/fa"; // Importing icons
@@ -50,58 +52,10 @@ function About() {
               </div>
             </div>
 
+            <AboutSection />
+
             {/* About Details */}
-            <div className="why-choose-us section-padding">
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-12 text-center">
-                    <h3 className="section-title">
-                      Why Choose Pet Trust Hospital?
-                    </h3>
-                    <p className="section-subtitle">
-                      Here are a few reasons why we stand out.
-                    </p>
-                  </div>
-                </div>
-                <div className="row">
-                  {/* Why Pet Trust Hospital Card 1 */}
-                  <div className="col-md-4">
-                    <div className="why-card">
-                      <FaHeartbeat className="why-icon" />
-                      <h4 className="why-title">Comprehensive Care</h4>
-                      <p className="why-text">
-                        We provide a wide range of services from preventive care
-                        to complex surgeries, ensuring your pet receives the
-                        best care.
-                      </p>
-                    </div>
-                  </div>
-                  {/* Why Pet Trust Hospital Card 2 */}
-                  <div className="col-md-4">
-                    <div className="why-card">
-                      <FaUserMd className="why-icon" />
-                      <h4 className="why-title">Expert Doctors</h4>
-                      <p className="why-text">
-                        Our team of experienced veterinarians is dedicated to
-                        providing expert care with a personal touch for your
-                        pets.
-                      </p>
-                    </div>
-                  </div>
-                  {/* Why Pet Trust Hospital Card 3 */}
-                  <div className="col-md-4">
-                    <div className="why-card">
-                      <FaBullhorn className="why-icon" />
-                      <h4 className="why-title">Trusted by Pet Owners</h4>
-                      <p className="why-text">
-                        Pet owners trust us because we prioritize your pet’s
-                        health and well-being above everything else.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <QuickFactors />
           </div>
 
           <div className="about-details section-padding">
