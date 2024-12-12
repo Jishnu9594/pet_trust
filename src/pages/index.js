@@ -13,11 +13,7 @@ function Index() {
     <Fragment>
       <>
         {/* Preloader Start */}
-        <script
-          src="https://cdn.pulse.is/livechat/loader.js"
-          data-live-chat-id="675ab326449d78642b09b813"
-          async
-        ></script>
+
         <Menu />
         <AppointmentPopup />
 
