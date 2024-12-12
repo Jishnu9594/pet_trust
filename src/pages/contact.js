@@ -282,7 +282,7 @@ function Contact() {
                         is made with{" "}
                         <i className="fa fa-heart" aria-hidden="true" /> by{" "}
                         <a href="https://colorlib.com" target="_blank">
-                          INNVOATE_X
+                          INNVOATE_X LAB
                         </a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                       </p>

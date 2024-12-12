@@ -54,12 +54,6 @@ function Menu() {
                               <li>
                                 <Link to="/blog">Blog</Link>
                               </li>
-                              <li>
-                                <Link to="/blogdetails">Blog Details</Link>
-                              </li>
-                              <li>
-                                <Link to="/element">Element</Link>
-                              </li>
                             </ul>
                           </li>
                           <li>
@@ -108,12 +102,6 @@ function Menu() {
                     <ul className="submenu">
                       <li>
                         <Link to="/blog">Blog</Link>
-                      </li>
-                      <li>
-                        <Link to="/blogdetails">Blog Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/element">Element</Link>
                       </li>
                     </ul>
                   </li>
