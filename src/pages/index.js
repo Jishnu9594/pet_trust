@@ -100,6 +100,27 @@ function Index() {
                     </div>
                     <div className="services-cap">
                       <h5>
+                        <a href="#">Dog grooming</a>
+                      </h5>
+                      <p>
+                        Dog grooming at Pet Trust Hospital ensures your pet's
+                        hygiene and comfort. Services include bathing, hair
+                        trimming, nail clipping, ear cleaning, and styling,
+                        performed by skilled groomers in a calm, pet-friendly
+                        setting. Tailored to each dog's needs, grooming promotes
+                        health, cleanliness, and a happy, refreshed appearance
+                        for your furry friend.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-services text-center mb-30">
+                    <div className="services-ion">
+                      <span className="flaticon-animals-1" />
+                    </div>
+                    <div className="services-cap">
+                      <h5>
                         <a href="#">Vaccinations</a>
                       </h5>
                       <p>
