@@ -77,24 +77,6 @@ function Index() {
                 <div className=" col-lg-4 col-md-6 col-sm-6">
                   <div className="single-services text-center mb-30">
                     <div className="services-ion">
-                      <span className="flaticon-animal-kingdom" />
-                    </div>
-                    <div className="services-cap">
-                      <h5>
-                        <a href="#">Pet Boarding</a>
-                      </h5>
-                      <p>
-                        Pet Trust Hospital offers reliable pet boarding with
-                        loving care, spacious accommodations, and professional
-                        staff to ensure your pet stays safe, happy, and healthy
-                        while you're away.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className=" col-lg-4 col-md-6 col-sm-6">
-                  <div className="single-services text-center mb-30">
-                    <div className="services-ion">
                       <span className="flaticon-animals" />
                     </div>
                     <div className="services-cap">
@@ -671,9 +653,6 @@ function Index() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Pet Boarding</a>
-                        </li>
-                        <li>
                           <a href="#">Pet Treatment</a>
                         </li>
                         <li>
@@ -686,10 +665,32 @@ function Index() {
                           <a href="#">Department of Veterinary Medicine</a>
                         </li>
                         <li>
+                          <a href="#">Dog Grooming</a>
+                        </li>
+                        <li>
+                          <a href="#"> Department of Diagnostic Imaging</a>
+                        </li>
+                        <li>
                           <a href="#">
-                            <li>
-                              <a href="#">Department of Veterinary Medicine</a>
-                            </li>
+                            Department of Obstetrics and Gynecology
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Dental Care And Treatment</a>
+                        </li>
+                        <li>
+                          <a href="#">Laboratory</a>
+                        </li>
+                        <li>
+                          <a href="#">Wellness Programs</a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Nutrition</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            Department of Interventional Radiography
                           </a>
                         </li>
                       </ul>
@@ -703,10 +704,10 @@ function Index() {
                       <ul>
                         <li>
                           <a href="#">+91 6235806114</a>|
-                          <a href="#">+91 6235806114</a>
+                          <a href="#">+91 6235806115</a>
                         </li>
                         <li>
-                          <a href="#"> infopettrust@gmail.com</a>
+                          <a href="#"> info@pettrust.com</a>
                         </li>
                         <li>
                           <a href="#">

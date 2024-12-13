@@ -48,14 +48,14 @@ const QuickFactors = () => {
               <div className="quickFactorsBoxIcon">
                 <FaUsers />
               </div>
-              <h3>500+</h3>
+              <h3>10000+</h3>
               <p>Happy Pet Families</p>
             </div>
             <div className="quickFactorsBox">
               <div className="quickFactorsBoxIcon">
                 <FaBriefcase />
               </div>
-              <h3>70+</h3>
+              <h3>60+</h3>
               <p>Staff Members</p>
             </div>
           </div>

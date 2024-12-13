@@ -59,7 +59,7 @@ function About() {
           </div>
 
           <div className="about-details section-padding">
-            <h3 className="section-title">Mission and Vission</h3>
+            <h3 className="section-title">Mission and Vision</h3>
             <br></br>
             <div className="container">
               <div className="about-inline-block-container">
@@ -493,9 +493,6 @@ function About() {
                       <h4>Services</h4>
                       <ul>
                         <li>
-                          <a href="#">Pet Boarding</a>
-                        </li>
-                        <li>
                           <a href="#">Pet Treatment</a>
                         </li>
                         <li>
@@ -508,10 +505,32 @@ function About() {
                           <a href="#">Department of Veterinary Medicine</a>
                         </li>
                         <li>
+                          <a href="#">Dog Grooming</a>
+                        </li>
+                        <li>
+                          <a href="#"> Department of Diagnostic Imaging</a>
+                        </li>
+                        <li>
                           <a href="#">
-                            <li>
-                              <a href="#">Department of Veterinary Medicine</a>
-                            </li>
+                            Department of Obstetrics and Gynecology
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Dental Care And Treatment</a>
+                        </li>
+                        <li>
+                          <a href="#">Laboratory</a>
+                        </li>
+                        <li>
+                          <a href="#">Wellness Programs</a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Nutrition</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            Department of Interventional Radiography
                           </a>
                         </li>
                       </ul>
@@ -525,10 +544,10 @@ function About() {
                       <ul>
                         <li>
                           <a href="#">+91 6235806114</a>|
-                          <a href="#">+91 6235806114</a>
+                          <a href="#">+91 6235806115</a>
                         </li>
                         <li>
-                          <a href="#"> infopettrust@gmail.com</a>
+                          <a href="#"> info@pettrust.com</a>
                         </li>
                         <li>
                           <a href="#">

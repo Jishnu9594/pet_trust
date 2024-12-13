@@ -113,10 +113,32 @@ function Blog() {
                           <a href="#">Department of Veterinary Medicine</a>
                         </li>
                         <li>
+                          <a href="#">Dog Grooming</a>
+                        </li>
+                        <li>
+                          <a href="#"> Department of Diagnostic Imaging</a>
+                        </li>
+                        <li>
                           <a href="#">
-                            <li>
-                              <a href="#">Department of Veterinary Medicine</a>
-                            </li>
+                            Department of Obstetrics and Gynecology
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Dental Care And Treatment</a>
+                        </li>
+                        <li>
+                          <a href="#">Laboratory</a>
+                        </li>
+                        <li>
+                          <a href="#">Wellness Programs</a>
+                        </li>
+                        <li>
+                          <a href="#">Pet Nutrition</a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            {" "}
+                            Department of Interventional Radiography
                           </a>
                         </li>
                       </ul>
@@ -130,10 +152,10 @@ function Blog() {
                       <ul>
                         <li>
                           <a href="#">+91 6235806114</a>|
-                          <a href="#">+91 6235806114</a>
+                          <a href="#">+91 6235806115</a>
                         </li>
                         <li>
-                          <a href="#"> infopettrust@gmail.com</a>
+                          <a href="#"> info@pettrust.com</a>
                         </li>
                         <li>
                           <a href="#">

@@ -77,7 +77,6 @@ const ContactForm = () => {
                 <div className="form-group">
                   <select name="service" onChange={handleChange} required>
                     <option value="">Select Service</option>
-                    <option value="Pet Boarding">Pet Boarding</option>
                     <option value="Pet Treatment">Pet Treatment</option>
                     <option value="Vaccinations">Vaccinations</option>
                     <option value="Department of Surgery">
@@ -86,9 +85,7 @@ const ContactForm = () => {
                     <option value="Department of Veterinary Medicine">
                       Department of Veterinary Medicine
                     </option>
-                    <option value="Department of Veterinary Medicine">
-                      Department of Veterinary Medicine
-                    </option>
+                    <option value="Dog Grooming">Dog Grooming</option>
                     <option
                       value="
 Department of Diagnostic Imaging"
@@ -102,7 +99,7 @@ Department of Diagnostic Imaging"
                       Department of Obstetrics and Gynecology
                     </option>
                     <option value="Pet Dental Care And Treatment in Cochin">
-                      Pet Dental Care And Treatment in Cochin
+                      Pet Dental Care And Treatment
                     </option>
                     <option value="Laboratory">Laboratory</option>
                     <option value="Wellness Programs">Wellness Programs</option>
