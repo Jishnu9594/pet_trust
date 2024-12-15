@@ -645,8 +645,8 @@ function Index() {
                         </li>
                         <li>
                           <a href="#">
-                            PET TRUST - Pet Hospital Kochi, Veterinary Hospital
-                            Kochi, Pet Clinic Kochi, Veterinary Doctor Kochi
+                            14/989, NGO Quarters – Mavelipuram Rd, Thrikkakara,
+                            Kakkanad, Kerala 682030
                           </a>
                         </li>
                       </ul>
