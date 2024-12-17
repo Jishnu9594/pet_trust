@@ -7,6 +7,7 @@ import AboutSection from "./aboutpage";
 import { Link, useLocation } from "react-router-dom";
 import { FaBullhorn, FaEye } from "react-icons/fa";
 import { FaHeartbeat, FaUserMd, FaHandsHelping } from "react-icons/fa"; // Importing icons
+import PetWellnessSection from "../wellness";
 function About() {
   return (
     <Fragment>
@@ -81,14 +82,17 @@ function About() {
                   <FaEye className="about-icon" />
                   <h4 className="about-title">Our Vision</h4>
                   <p className="about-text">
-                    Our vision is to be the leading veterinary hospital,
-                    recognized for our innovative approach to pet care and
-                    unwavering commitment to the health and happiness of every
-                    pet. We aim to create a safe, supportive, and welcoming
-                    environment for pets and their owners, ensuring that every
-                    visit is a positive experience. Through continuous learning,
-                    advanced technology, and personalized care, we aspire to set
-                    a new standard in veterinary excellence.
+                    We established the Pet Trust hospital so that every animal
+                    companion in Kerala can access quality medical treatment. We
+                    aim to become a center of advanced medical care and the best
+                    pet hospital in Kerala. With state-of-the-art facilities
+                    such as diagnostic labs and equipment and the expertise of
+                    specialized veterinarians, internists, anesthesiologists,
+                    and oncologists, we are on the path to realizing our vision.
+                    We know the importance of timely intervention in pet health
+                    care and we want to educate every owner to become
+                    responsible companions for pets. We aim to become the
+                    largest chain of veterinary hospitals in India.
                   </p>
                 </div>
                 <div className="about-card">
@@ -421,6 +425,8 @@ function About() {
             </div>
           </div>
           {/* contact-animal-owner End */}
+
+          <PetWellnessSection />
         </main>
         <footer>
           {/* Footer Start*/}

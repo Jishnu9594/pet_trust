@@ -6,7 +6,9 @@ import BlogSection from "./blogindex";
 import AppointmentPopup from "./ Popup Component";
 import BookAppointmentButton from "./ BookAppointmentButton";
 import Gallery from "./gallery";
+import PetCareSection from "../exploremoreindx";
 import { Link, useLocation } from "react-router-dom";
+import WellnessExam from "../wellness";
 
 function Index() {
   return (
@@ -515,6 +517,7 @@ function Index() {
             </div>
           </div>
           {/* contact-animal-owner End */}
+          <PetCareSection />
         </main>
         <footer>
           {/* Footer Start*/}
