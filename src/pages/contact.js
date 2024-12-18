@@ -76,7 +76,7 @@ function Contact() {
             </div>
           </div>
         </section>
-        {/* ================ contact section end ================= */}
+
         <Footer />
       </>
     </Fragment>
