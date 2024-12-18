@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 
 const AppointmentPopup = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,28 +15,36 @@ const AppointmentPopup = () => {
     setIsPopupVisible(false);
   };
 
-  const handleBookAppointment = () => {
-    navigate("/contact-form");
+  const handleCallNow = () => {
+    window.location.href = "tel:+916235806115";
   };
 
   return (
     <>
       {isPopupVisible && (
-        <div className="popup-overlay">
-          <div className="popup">
-            <div className="popup-message">
-              <h2>Book an Appointment</h2>
-              <p>We would love to assist you! Please book an appointment.</p>
+        <div className="glass-popup-overlay">
+          <div className="glass-popup">
+            <div className="glass-popup-header">
+              <h2>Let’s Connect</h2>
             </div>
-            <div className="popup-actions">
-              <button className="popup-close-btn" onClick={closePopup}>
+            <div className="glass-popup-body">
+              <p>
+                Have a question? Need assistance? Call us now and let us help
+                you with your needs.
+              </p>
+            </div>
+            <div className="glass-popup-actions">
+              <button
+                className="glass-popup-btn glass-close-btn"
+                onClick={closePopup}
+              >
                 Close
               </button>
               <button
-                className="popup-book-btn"
-                onClick={handleBookAppointment}
+                className="glass-popup-btn glass-call-btn"
+                onClick={handleCallNow}
               >
-                Book Appointment
+                Call Now
               </button>
             </div>
           </div>

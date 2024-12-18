@@ -17,7 +17,7 @@ function About() {
         <>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <title>Animal | Template </title>
+          <title>Pet Trust </title>
           <meta name="description" content="" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="manifest" href="site.webmanifest" />
@@ -229,11 +229,11 @@ function About() {
                       </p>
                     </div>
                     <div className="contact_btn d-flex align-items-center justify-content-center">
-                      <a href="contact.html" className="btn white-btn">
+                      <a href="tel:+916235806115" className="btn white-btn">
                         Contact Us
                       </a>
                       <p>
-                        Or<a href="#"> +91 6235806115</a>
+                        Or <a href="tel:+916235806115">+91 6235806115</a>
                       </p>
                     </div>
                   </div>

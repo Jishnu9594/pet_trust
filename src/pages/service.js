@@ -298,11 +298,11 @@ function Service() {
                       </p>
                     </div>
                     <div className="contact_btn d-flex align-items-center justify-content-center">
-                      <a href="contact.html" className="btn white-btn">
+                      <a href="tel:+916235806115" className="btn white-btn">
                         Contact Us
                       </a>
                       <p>
-                        Or<a href="#">+91 6235806115</a>
+                        Or <a href="tel:+916235806115">+91 6235806115</a>
                       </p>
                     </div>
                   </div>
