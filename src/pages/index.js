@@ -34,7 +34,7 @@ function Index() {
                       <div className="video-icon">
                         <a
                           className="popup-video btn-icon"
-                          href="https://www.youtube.com/watch?v=up68UAfH0d0"
+                          href="https://youtu.be/tMH_3Hq3Bzo?si=zioeWELDYy4aZx8N"
                           data-animation="bounceIn"
                           data-delay=".4s"
                         >
