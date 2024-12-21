@@ -18,6 +18,13 @@ const QuickFactors = () => {
           <div className="quickFactorsList">
             <div className="quickFactorsBox">
               <div className="quickFactorsBoxIcon">
+                <FaUsers />
+              </div>
+              <h3>10000+</h3>
+              <p>Happy Pet Families</p>
+            </div>
+            <div className="quickFactorsBox">
+              <div className="quickFactorsBoxIcon">
                 <FaUniversity />
               </div>
               <h3>5+</h3>
@@ -44,13 +51,7 @@ const QuickFactors = () => {
               <h3>365</h3>
               <p>Days of Service</p>
             </div>
-            <div className="quickFactorsBox">
-              <div className="quickFactorsBoxIcon">
-                <FaUsers />
-              </div>
-              <h3>10000+</h3>
-              <p>Happy Pet Families</p>
-            </div>
+
             <div className="quickFactorsBox">
               <div className="quickFactorsBoxIcon">
                 <FaBriefcase />

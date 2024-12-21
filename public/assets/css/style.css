@@ -3233,7 +3233,7 @@ hr {
   }
 }
 .about-area .about-img {
-  background-image: url(../img/pettrust1/P1210473.JPG);
+  background-image: url(../img/pettrust_optimized_img/P1210473.webp);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6758,7 +6758,7 @@ textarea {
 
 .quickFactorsList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 columns per row */
   gap: 30px;
 }
 
@@ -6793,6 +6793,7 @@ textarea {
   color: #666666;
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   .quickFactorsMain h1 {
     font-size: 28px;
@@ -6804,6 +6805,13 @@ textarea {
 
   .quickFactorsBox p {
     font-size: 14px;
+  }
+
+  .quickFactorsList {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(250px, 1fr)
+    ); /* Responsive fallback */
   }
 }
 /* About Section Styling */

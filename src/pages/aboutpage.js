@@ -26,7 +26,7 @@ const AboutSection = () => {
         </div>
         <div className="intro-image">
           <img
-            src="assets/img/pettrust2/pettrusthospital.jpeg"
+            src="assets/img/pettrust_optimized_img/pettrusthospital.webp"
             alt="Pet Trust Hospital"
             className="hospital-img"
           />

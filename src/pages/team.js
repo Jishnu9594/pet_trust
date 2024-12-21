@@ -21,62 +21,62 @@ const TeamMember = ({ imgSrc, name, title }) => {
 const TeamSection = () => {
   const teamMembers = [
     {
-      imgSrc: "assets/img/pettrust2/P1210326.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210326.webp",
       name: "DR. JOBY GEORGE BVSc &AH , PGDTMD",
       title: "MEDICAL DIRECTOR",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210265.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210265.webp",
       name: "DR. George Rikku Roshan BVSc &AH",
       title: "Veterinary Surgeon & Unit HEAD",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210310.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210310.webp",
       name: "DR. Parvathi Abhijith BVSc &AH",
       title: "Veterinary Surgeon & Unit HEAD",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210246 .jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210246 .webp",
       name: "DR. ASWATHY NAIR MVSc (Microbiology)",
       title: "veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210240.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210240.webp",
       name: "DR. MITHUN KAPOOR BVSc & AH",
       title: "VETERINARY SURGEON",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210302.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210302.webp",
       name: "DR. ASHIR KI BVSc & AH",
       title: "veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210272.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210272.webp",
       name: "DR. Sravan BVSc &AH",
       title: "veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210255.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210255.webp",
       name: "DR. DEVIKA TS,BVSc & AH",
       title: "Veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210261 .jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210261 .webp",
       name: "DR. MALAVIKA BVSc&AH",
       title: "Veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210291.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210291.webp",
       name: "DR. Greeshma P BVSc &AH",
       title: "Veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/P1210354.jpg",
+      imgSrc: "assets/img/pettrust_optimized_img/P1210354.webp",
       name: "DR. Maneesha BVSc & AH",
       title: "Veterinary Surgeon",
     },
     {
-      imgSrc: "assets/img/pettrust2/unavaiable.webp",
+      imgSrc: "assets/img/pettrust_optimized_img/unavaiable.webp",
       name: "DR. Vishnuvardhan MVSC,PhD",
       title: "Veterinary Surgeon",
     },

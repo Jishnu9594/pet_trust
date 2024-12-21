@@ -7,47 +7,47 @@ import "swiper/css/pagination";
 const Gallery = () => {
   const slides = [
     {
-      image: "assets/img/pettrust1/P1210467.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210467.webp",
       text: "This is a happy pet enjoying the sunshine!",
     },
     {
-      image: "assets/img/pettrust1/P1210118.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210118.webp",
       text: "A playful moment captured with our furry friends.",
     },
     {
-      image: "assets/img/pettrust1/P1210421.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210421.webp",
       text: "Our pets love to explore and make memories.",
     },
     {
-      image: "assets/img/pettrust1/P1210349.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210349.webp",
       text: "Comfort and care for every animal we serve.",
     },
     {
-      image: "assets/img/pettrust1/P1210497.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210497.webp",
       text: "A snapshot of unconditional love and trust.",
     },
     {
-      image: "assets/img/pettrust1/P1210388.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210388.webp",
       text: "Advanced ICU care prioritizing pets' recovery, comfort, and wellbeing.",
     },
     {
-      image: "assets/img/pettrust1/P1210227.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210227.webp",
       text: "The grooming section in a pet trust ensures pet care maintenance.",
     },
     {
-      image: "assets/img/pettrust1/P1210397.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210397.webp",
       text: "Modern diagnostics ensuring pets' health, safety, and happiness.",
     },
     {
-      image: "assets/img/pettrust1/P1210483.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210483.webp",
       text: "Comfort and care for every animal we serve.",
     },
     {
-      image: "assets/img/pettrust1/P1210374.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210374.webp",
       text: "Team coordination in a pet trust ensures efficient care and management.",
     },
     {
-      image: "assets/img/pettrust1/P1210466.JPG",
+      image: "assets/img/pettrust_optimized_img/P1210466.webp",
       text: "Comfort and care for every animal we serve.",
     },
   ];
