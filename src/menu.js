@@ -93,7 +93,7 @@ function Menu() {
                     <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="/better-paws">Better Paws</Link>
+                    <Link to="/better-paws">Betterpaws</Link>
                   </li>
                   <li>
                     <Link to="/services">Services</Link>
