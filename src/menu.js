@@ -46,7 +46,9 @@ function Menu() {
                             <Link to="/about">About</Link>
                           </li>
                           <li>
-                            <Link to="/better-paws">BetterPaws</Link>
+                            <Link to="https://betterpaws.vercel.app/">
+                              BetterPaws
+                            </Link>
                           </li>
                           <li>
                             <Link to="/services">Services</Link>
@@ -93,7 +95,7 @@ function Menu() {
                     <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="/better-paws">Better paws</Link>
+                    <Link to="https://betterpaws.vercel.app/">BetterPaws</Link>
                   </li>
                   <li>
                     <Link to="/services">Services</Link>

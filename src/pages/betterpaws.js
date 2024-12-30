@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Menu from "../menu";
-import BlogSection from "./blogindex";
 import { Link, useLocation } from "react-router-dom";
 import Footer from "./footer";
 
@@ -24,7 +23,6 @@ function BetterPaws() {
           </div>
           {/* Hero Area End */}
           {/*================Blog Area =================*/}
-          <BlogSection />
 
           {/*================Blog Area =================*/}
         </main>
