@@ -7,6 +7,7 @@ import Contact from "./pages/contact";
 import AppointmentPopup from "./pages/ Popup Component";
 import ContactForm from "./pages/contactform";
 import BetterPaws from "./pages/betterpaws";
+import BlogDetail from "./pages/BlogDetail";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
           <Route path="/appointment-popup" element={<AppointmentPopup />} />
           <Route path="/contact-form" element={<ContactForm />} />
           <Route path="/better-paws/" element={<BetterPaws />} />
+          <Route path="/blogs/:id" element={<BlogDetail />} />
         </Routes>
       </Router>
     </div>

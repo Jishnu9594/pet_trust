@@ -20,9 +20,12 @@ const BlogSection = () => {
     fetchBlogs();
   }, []);
 
-  const getShortContent = (content, limit = 150) => {
-    if (content.length <= limit) return content;
-    return content.substring(0, limit) + "...";
+  // Function to shorten content
+  const getShortContent = (content, limit = 100) => {
+    if (!content) return "";
+    return content.length > limit
+      ? content.substring(0, limit) + "..."
+      : content;
   };
 
   return (
@@ -52,7 +55,8 @@ const BlogSection = () => {
                     <p>{blog.date}</p>
                   </div>
                   <h4>{blog.title}</h4>
-                  <p>{getShortContent(blog.content)}</p>
+                  <p>{getShortContent(blog.content)}</p>{" "}
+                  {/* Shortened content */}
                   <Link to={`/blogs/${blog.id}`} className="read-more1">
                     Read more
                   </Link>
