@@ -1,5 +1,5 @@
-import axios from "axios";
 import React, { useState } from "react";
+import axios from "axios";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -55,7 +55,18 @@ const ContactForm = () => {
           <div className="col-xl-7 col-lg-7">
             <div className="form-wrapper">
               <h2 className="form-title animate-heading"></h2>
+
+              {/* Note Section */}
+              <p className="form-note">
+                <strong>Note:</strong> Bookings through this form must be made
+                at least 2 hours before the desired booking time to confirm your
+                appointment. For urgent care, please walk in directly or call us
+                at
+                <a href="tel:+916235806115"> +91 6235806115</a>.
+              </p>
+
               <form id="contact-form" onSubmit={handleSubmit}>
+                {/* Form Fields */}
                 <div className="form-group">
                   <input
                     type="text"

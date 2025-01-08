@@ -8010,3 +8010,15 @@ button:disabled {
     font-size: 1rem;
   }
 }
+.form-note {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.form-note a {
+  color: #007bff;
+  text-decoration: none;
+}
+.form-note a:hover {
+  text-decoration: underline;
+}
