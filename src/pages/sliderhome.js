@@ -14,7 +14,7 @@ const SliderArea = () => {
                 <div className="video-icon">
                   <a
                     className="popup-video btn-icon"
-                    href="https://youtu.be/tMH_3Hq3Bzo?si=zioeWELDYy4aZx8N"
+                    href="https://youtu.be/pa2_dGVEAnk?si=gqjya1mLT4jWMmPZ"
                     aria-label="Play Video"
                   >
                     <i className="fas fa-play" />

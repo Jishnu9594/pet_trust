@@ -117,8 +117,8 @@ const Footer = () => {
                   <h4>Get in Touch</h4>
                   <ul>
                     <li>
-                      <a href="#">+91 6235806114</a> |{" "}
-                      <a href="#">+91 6235806115</a>
+                      <a href="#">+91 6235806115</a> |{" "}
+                      <a href="#">+91 6235806114</a>
                     </li>
                     <li>
                       <a href="#">info@pettrust.com</a>

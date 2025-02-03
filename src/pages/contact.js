@@ -59,7 +59,7 @@ function Contact() {
                     <i className="ti-tablet" />
                   </span>
                   <div className="media-body">
-                    <h3>+91 6235806114 +91 6235806115</h3>
+                    <h3>+91 6235806115 +91 6235806114 </h3>
                     <p>Mon to Sat 8.00 am – 9.00 pm</p>
                   </div>
                 </div>
