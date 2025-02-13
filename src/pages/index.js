@@ -12,6 +12,7 @@ import WellnessExam from "../wellness";
 import TeamSection from "./team";
 import Footer from "./footer";
 import SliderArea from "./sliderhome";
+import HeroSection from "./sliderhome";
 
 function Index() {
   return (
@@ -24,7 +25,7 @@ function Index() {
 
         <main>
           {/*? Slider Area Start*/}
-          <SliderArea />
+          <HeroSection />
           {/* Slider Area End */}
           {/*? Our Services Start */}
           <div className="our-services section-padding30">
