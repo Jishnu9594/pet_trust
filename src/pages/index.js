@@ -162,7 +162,7 @@ function Index() {
           {/* Our Services End */}
           {/*? About Area Start*/}
           <div className="about-area fix">
-            {/*Right Contents  */}
+            {/* Right Contents */}
             <div className="about-img">
               <div className="info-man text-center">
                 <div className="head-cap">
@@ -209,10 +209,10 @@ function Index() {
                 </p>
               </div>
             </div>
-            {/* left Contents */}
+            {/* Left Contents */}
             <div className="about-details">
               <div className="right-caption">
-                {/* Section Tittle */}
+                {/* Section Title */}
                 <div className="section-tittle mb-50">
                   <h2>
                     We are committed to providing the best care for your pets
