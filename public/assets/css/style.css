@@ -2282,14 +2282,14 @@ hr {
 }
 .slider-area {
   position: relative;
-  background-image: url(../img/team/banner.webp);
+  background-image: url(../img/team/banner2.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; /* Ensure the image covers the section on larger screens */
   background-color: rgba(
-    112,
-    208,
-    197,
+    71,
+    196,
+    182,
     255
   ); /* Add the specified background color to fill any empty space */
   border: none; /* Remove any border visibility */
