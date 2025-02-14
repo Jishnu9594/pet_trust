@@ -10,7 +10,7 @@ const TeamMember = ({ imgSrc, name, title }) => {
         <div className="team-caption">
           <span>{name}</span>
           <h3>
-            <a href="#">{title}</a>
+            <a href="">{title}</a>
           </h3>
         </div>
       </div>
