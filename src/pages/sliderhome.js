@@ -27,7 +27,6 @@ const SliderArea = () => {
                     to your furry friends, ensuring they live happy and healthy
                     lives.
                   </p>
-                  <BookAppointmentButton />
                 </div>
               </div>
             </div>

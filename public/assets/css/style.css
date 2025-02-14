@@ -2207,10 +2207,12 @@ hr {
   }
 }
 .mobile_menu {
-  position: absolute;
-  right: 0px;
+  position: fixed; /* Make the mobile menu sticky */
+  top: 0;
+  right: 0;
   width: 100%;
   z-index: 99;
+  background: white; /* Add white background for mobile menu */
 }
 .mobile_menu .slicknav_menu {
   background: transparent;
@@ -2256,7 +2258,7 @@ hr {
 }
 @media (max-width: 575px) {
   .slider-height {
-    height: 500px;
+    height: auto; /* Adjust height to auto for mobile devices */
   }
 }
 .slider-height2 {
@@ -2283,21 +2285,27 @@ hr {
   background-image: url(../img/team/banner.webp);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .slider-area {
-    padding-top: 30px;
-  }
+  background-size: cover; /* Ensure the image covers the section on larger screens */
+  background-color: rgba(
+    112,
+    208,
+    197,
+    255
+  ); /* Add the specified background color to fill any empty space */
+  border: none; /* Remove any border visibility */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 @media (max-width: 575px) {
   .slider-area {
+    background-size: contain; /* Ensure the full image is visible on mobile devices */
+    height: auto; /* Adjust height to auto to fit the full image */
     padding-top: 80px;
   }
 }
 .slider-area .hero__caption {
   overflow: hidden;
   position: relative;
+  text-align: center; /* Center align text for better mobile view */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
   .slider-area .hero__caption {
@@ -2499,11 +2507,12 @@ hr {
 }
 .video-icon {
   margin-bottom: 50px;
+  text-align: center; /* Center align video icon for better mobile view */
 }
 @media (max-width: 575px) {
   .video-icon {
     right: 27px;
-    bottom: 27px;
+    bottom: 100px; /* Adjust position to move the icon even lower on mobile views */
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -2549,6 +2558,7 @@ hr {
 }
 .video-icon a.btn-icon {
   position: relative;
+  top: 55px;
 }
 .video-icon a.btn-icon::before {
   content: "";
